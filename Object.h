@@ -8,15 +8,16 @@
 #include <vector>
 using namespace std;
 
-enum obj_type {NONE, INT, REAL, STRING, LIST};
+enum obj_type {UNKOWN, INT, REAL, STRING, LIST};
 	
 class Object
 {
     public:
-	Object();
+    Object();
 	Object (const int & value);
 	Object (const double & value);
-	Object (const string & value);
+    Object (const string & value);
+    string GetName () { return name; }
 	bool operator == (const Object & O) const;
 	bool operator != (const Object & O) const;
 	bool operator < (const Object & O) const;
@@ -37,6 +38,7 @@ class Object
 	friend Object listop (const string & S, const Object & O);
 	friend Object cons (const Object & O1, const Object O2);
 	friend ostream & operator << (ostream & outs, const Object & O);
+    
     private:
 	Object (stringstream & ss);
 	void MakeName ();

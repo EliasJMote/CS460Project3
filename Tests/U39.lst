@@ -1,3 +1,0 @@
-Input file: ./Tests/U39.ss
-   1: (define (divide a b) (/ a b))
-0 errors found in input file

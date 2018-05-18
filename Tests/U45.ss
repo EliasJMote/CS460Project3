@@ -1,1 +1,0 @@
-(define (greater_equal a b) (>=))

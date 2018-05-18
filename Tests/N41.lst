@@ -1,4 +1,0 @@
-Input file: ./Tests/N41.ss
-   1: ;;41
-   2: (define (a) (modulo ident ident))
-0 errors found in input file

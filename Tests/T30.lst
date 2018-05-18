@@ -1,3 +1,0 @@
-Input file: ./Tests/T30.ss
-   1: (define (NotList a) (not (list? a))) ; rule 30
-0 errors found in input file

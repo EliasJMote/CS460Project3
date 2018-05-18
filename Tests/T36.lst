@@ -1,3 +1,0 @@
-Input file: ./Tests/T36.ss
-   1: (define(isString a) (string? a)) ;rule 36
-0 errors found in input file

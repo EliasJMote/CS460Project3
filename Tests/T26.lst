@@ -1,3 +1,0 @@
-Input file: ./Tests/T26.ss
-   1: (define (carList a) (car a)) ;rule 26
-0 errors found in input file

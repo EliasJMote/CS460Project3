@@ -1,3 +1,0 @@
-Input file: ./Tests/W37.ss
-   1: (define (rule37) (+)) 			; Rule 37
-0 errors found in input file

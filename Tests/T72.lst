@@ -1,3 +1,0 @@
-Input file: ./Tests/T72.ss
-   1: (define (square) '*) ;rule72
-0 errors found in input file

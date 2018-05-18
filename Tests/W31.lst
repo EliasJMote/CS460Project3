@@ -1,3 +1,0 @@
-Input file: ./Tests/W31.ss
-   1: (define (rule31) (number? 0)) 		; Rule 31
-0 errors found in input file

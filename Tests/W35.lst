@@ -1,3 +1,0 @@
-Input file: ./Tests/W35.ss
-   1: (define (rule35) (null? 0)) 		; Rule 35
-0 errors found in input file

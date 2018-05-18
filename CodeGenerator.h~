@@ -12,7 +12,7 @@ class CodeGen
 {
     public:
 	CodeGen (string filename, LexicalAnalyzer * L);
-	CodeGen ();
+	
 	~CodeGen ();
 	string MakeCode (int tabs);
 	string MakeListCode();

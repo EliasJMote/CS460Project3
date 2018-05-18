@@ -17,6 +17,7 @@ CodeGen::CodeGen (string filename, LexicalAnalyzer * L)
   cpp << "#include <iostream>\n";
   cpp << "#include \"Object.h\"\n";
   cpp << "using namespace std;\n\n";
+  cout << "were here" << endl;
 }
 
 /********************************************************************************/

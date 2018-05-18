@@ -37,7 +37,7 @@ class SyntacticalAnalyzer
 	int More_Tokens();
 	int Param_List(bool);
 	int Else_Part();
-	int Stmt_Pair();
+	int Stmt_Pair(string);
 	int Stmt_Pair_Body();
 	int Action(bool);
 	int Any_Other_Token();

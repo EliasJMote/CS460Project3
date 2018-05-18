@@ -1,4 +1,0 @@
-Input file: ./Tests/N37.ss
-   1: ;;37
-   2: (define (a) (+))
-0 errors found in input file

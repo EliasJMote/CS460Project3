@@ -1,1 +1,0 @@
-(define (carList a) (car a)) ;rule 26

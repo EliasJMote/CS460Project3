@@ -1,0 +1,8 @@
+clear
+echo "Using" $1".ss as input to guile"
+guile < $1.ss
+echo
+echo "Using" $1".ss as input to P3.out"
+./P3.out $1.ss
+cat $1.lst
+echo

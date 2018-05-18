@@ -1,5 +1,0 @@
-Input file: ./Tests/R42.ss
-   1: ; Rule 42
-   2: (define (rule_42_a) (= 2 2))
-   3: (define (rule_42_b) (=))
-0 errors found in input file

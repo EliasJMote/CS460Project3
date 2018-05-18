@@ -1,0 +1,7 @@
+for i in $1*.ss
+do
+    echo "Using $i"
+    cat $i
+    ./P2.out $i
+    echo
+done

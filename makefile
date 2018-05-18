@@ -24,21 +24,3 @@ SyntacticalAnalyzer.o : SyntacticalAnalyzer.cpp SyntacticalAnalyzer.h LexicalAna
 
 clean : 
 	rm -rf *.o *.out *.gch *.p1 *.p2 *.lst *.dbg
-
-submit : Project3.cpp LexicalAnalyzer.h LexicalAnalyzer.cpp SyntacticalAnalyzer.h SyntacticalAnalyzer.cpp makefile SetLimits.h SetLimits.cpp CodeGenerator.h CodeGenerator.cpp Object.h Object.cpp
-	rm -rf Team6P3
-	mkdir Team6P3
-	cp Project3.cpp Team6P3
-	cp LexicalAnalyzer.h Team6P3
-	cp LexicalAnalyzer.cpp Team6P3
-	cp SyntacticalAnalyzer.h Team6P3
-	cp SyntacticalAnalyzer.cpp Team6P3
-	cp Object.h Team6P3
-	cp Object.cpp Team6P3
-	cp SetLimits.h Team6P3
-	cp SetLimits.cpp Team6P3
-	cp CodeGenerator.h Team6P3
-	cp CodeGenerator.cpp Team6P3
-	cp makefile Team6P3
-	tar cfvz Team6P3.tgz Team6P3
-	cp Team6P3.tgz ~tiawatts/cs460drop

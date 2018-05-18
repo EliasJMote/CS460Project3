@@ -1,4 +1,0 @@
-Input file: ./Tests/P44.ss
-   1: (define (g)
-   2:   (<) )
-0 errors found in input file

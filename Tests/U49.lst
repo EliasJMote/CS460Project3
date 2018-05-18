@@ -1,3 +1,0 @@
-Input file: ./Tests/U49.ss
-   1: (define (nwln) (NEWLINE_T))
-0 errors found in input file

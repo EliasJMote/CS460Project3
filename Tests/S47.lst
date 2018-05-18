@@ -1,7 +1,0 @@
-Input file: ./Tests/S47.ss
-   1: ;; File: S47.ss
-   2: ;; Authors: Devin Brown and Ryan Moeller
-   3: 
-   4: ;; Rule 47
-   5: (define (x) (x))
-0 errors found in input file

@@ -1,9 +1,0 @@
-Input file: ./Tests/S74.ss
-   1: ;; File: S19.ss
-   2: ;; Authors: Devin Brown and Ryan Moeller
-   3: 
-   4: ;; Rule 19
-   5: ;; Rule 73
-   6: ;; Rule 74
-   7: (define (f) (if 'modulo '=))
-0 errors found in input file

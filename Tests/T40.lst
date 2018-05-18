@@ -1,3 +1,0 @@
-Input file: ./Tests/T40.ss
-   1: (define(Mult a b) (* a b)) ;rule 40
-0 errors found in input file

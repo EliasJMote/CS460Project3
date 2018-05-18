@@ -1,5 +1,0 @@
-Input file: ./Tests/Q27.ss
-   1: (define (function var)
-   2:     (cons (car ls) ls)
-   3: )
-0 errors found in input file

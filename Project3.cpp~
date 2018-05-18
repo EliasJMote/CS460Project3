@@ -16,8 +16,8 @@ int main (int argc, char * argv[])
 	}
 	SetLimits ();
 	SyntacticalAnalyzer parse (argv[1]);
-	//LexicalAnalyzer *lex;
-	//lex = new LexicalAnalyzer(argv[1]);
-	//CodeGen(argv[1], lex);
+	LexicalAnalyzer *lex;
+	lex = new LexicalAnalyzer(argv[1]);
+	CodeGen(argv[1], lex);
 	return 0;
 }

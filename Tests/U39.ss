@@ -1,1 +1,0 @@
-(define (divide a b) (/ a b))

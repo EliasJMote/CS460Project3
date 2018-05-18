@@ -4,26 +4,23 @@
 #include "Object.h"
 using namespace std;
 
-Object listop_ex1( )
+int main ()
 {
-	Object __RetVal;
-	__RetVal = 	 a 	 b 	 c 	 d 	 e 	 f 	
-	return __RetVal;
+	cout << Object( 12 )  +  Object( 5 );
+	cout << endl; 
+ 	cout << Object( "abc" )  +  Object( "xyz" ); 
+ 	cout << endl; 
+ 	cout << Object( "abc" )  +  Object( 5 ); 
+ 	cout << endl;
 }
 
-Object listop_ex2( )
+Object main2 ( Object one,  Object two)
 {
-	Object __RetVal;
-	__RetVal = 	 a 	 b 	 c 	 d 	 e 	 f 	
-	return __RetVal;
-}
-
-int main( )
-{
-	Object __RetVal;
-	cout << listop_ex1();
-	cout << listop_ex2();
-	
-	return 0;
+	cout << Object( 12 )  +  Object( 5 );
+	cout << endl; 
+ 	cout << Object( "abc" )  +  Object( "xyz" ); 
+ 	cout << endl; 
+ 	cout << Object( "abc" )  +  Object( 5 ); 
+ 	cout << endl;
 }
 

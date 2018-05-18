@@ -565,7 +565,7 @@ int SyntacticalAnalyzer::Else_Part ()
   return errors;
 }
 
-int SyntacticalAnalyzer::Stmt_Pair ()
+int SyntacticalAnalyzer::Stmt_Pair (string symbol)
 {
   int errors = 0;
   p2file << "Entering Stmt_Pair function; current token is: "

@@ -1,3 +1,0 @@
-Input file: ./Tests/T53.ss
-   1: (define (HelloWorld) 'HelloWorld) ; rule53
-0 errors found in input file

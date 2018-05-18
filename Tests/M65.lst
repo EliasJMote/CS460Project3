@@ -1,4 +1,0 @@
-Input file: ./Tests/M65.ss
-   1: (define (abc) 'list?)
-   2: 
-0 errors found in input file

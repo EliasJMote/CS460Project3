@@ -1,4 +1,0 @@
-Input file: ./Tests/N43.ss
-   1: ;;43
-   2: (define (a) (>))
-0 errors found in input file

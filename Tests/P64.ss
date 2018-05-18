@@ -1,2 +1,0 @@
-(define (symbolCheck)
-  'symbol? a)
