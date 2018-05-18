@@ -1,0 +1,92 @@
+Input file: test3.ss
+   1: ;; Project 3 Test 3
+   2: (define (listop_ex1)
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         listop_ex1
+	RPAREN_T        )
+   3: (cons (car '(a b c)) (cdr '(d e f)))
+	LPAREN_T        (
+	CONS_T          cons
+	LPAREN_T        (
+	LISTOP_T        car
+	QUOTE_T         '
+	LPAREN_T        (
+	IDENT_T         a
+	IDENT_T         b
+	IDENT_T         c
+	RPAREN_T        )
+	RPAREN_T        )
+	LPAREN_T        (
+	LISTOP_T        cdr
+	QUOTE_T         '
+	LPAREN_T        (
+	IDENT_T         d
+	IDENT_T         e
+	IDENT_T         f
+	RPAREN_T        )
+	RPAREN_T        )
+	RPAREN_T        )
+   4: )
+	RPAREN_T        )
+   5: (define (listop_ex2)
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         listop_ex2
+	RPAREN_T        )
+   6: (cons (cadr '(a b c)) (cddr '(d e f)))
+	LPAREN_T        (
+	CONS_T          cons
+	LPAREN_T        (
+	LISTOP_T        cadr
+	QUOTE_T         '
+	LPAREN_T        (
+	IDENT_T         a
+	IDENT_T         b
+	IDENT_T         c
+	RPAREN_T        )
+	RPAREN_T        )
+	LPAREN_T        (
+	LISTOP_T        cddr
+	QUOTE_T         '
+	LPAREN_T        (
+	IDENT_T         d
+	IDENT_T         e
+	IDENT_T         f
+	RPAREN_T        )
+	RPAREN_T        )
+	RPAREN_T        )
+   7: )
+	RPAREN_T        )
+   8: (define (main)
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         main
+	RPAREN_T        )
+   9: (display (listop_ex1)) (newline)
+	LPAREN_T        (
+	DISPLAY_T       display
+	LPAREN_T        (
+	IDENT_T         listop_ex1
+	RPAREN_T        )
+	RPAREN_T        )
+	LPAREN_T        (
+	NEWLINE_T       newline
+	RPAREN_T        )
+  10: (display (listop_ex2)) (newline)
+	LPAREN_T        (
+	DISPLAY_T       display
+	LPAREN_T        (
+	IDENT_T         listop_ex2
+	RPAREN_T        )
+	RPAREN_T        )
+	LPAREN_T        (
+	NEWLINE_T       newline
+	RPAREN_T        )
+  11: )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

@@ -31,14 +31,18 @@ class SyntacticalAnalyzer
 	int More_Defines();
 	int Stmt_List();
 	int Stmt();
+	int Stmt_List(string, bool, bool);
+	int Stmt(bool);
 	int Literal();
 	int Quoted_Lit();
 	int More_Tokens();
 	int Param_List();
+	int Param_List(bool);
 	int Else_Part();
 	int Stmt_Pair();
 	int Stmt_Pair_Body();
 	int Action();
+	int Action(bool);
 	int Any_Other_Token();
 	int Error_Helper(token_type t, string s);
 	int Error_Helper(string s);

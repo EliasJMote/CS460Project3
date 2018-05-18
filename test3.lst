@@ -1,0 +1,13 @@
+Input file: test3.ss
+   1: ;; Project 3 Test 3
+   2: (define (listop_ex1)
+   3: (cons (car '(a b c)) (cdr '(d e f)))
+   4: )
+   5: (define (listop_ex2)
+   6: (cons (cadr '(a b c)) (cddr '(d e f)))
+   7: )
+   8: (define (main)
+   9: (display (listop_ex1)) (newline)
+  10: (display (listop_ex2)) (newline)
+  11: )
+0 errors found in input file
