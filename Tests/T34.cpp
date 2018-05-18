@@ -7,7 +7,7 @@ using namespace std;
 Object isZero( a )
 {
 	Object __RetVal;
-	__RetVal = 	a 	
+	__RetVal = 	zero? 	a 	
 	return __RetVal;
 }
 

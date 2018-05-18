@@ -7,7 +7,7 @@ using namespace std;
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	
+	__RetVal = 	/ 	x 	
 	return __RetVal;
 }
 

@@ -7,7 +7,7 @@ using namespace std;
 Object rule27( )
 {
 	Object __RetVal;
-	__RetVal = const(	 a 	 b )	
+	__RetVal = const(' 	 a ' 	 b )	
 	return __RetVal;
 }
 

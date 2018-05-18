@@ -7,7 +7,7 @@ using namespace std;
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = i()	
+	__RetVal = 	car 	car i()	
 	return __RetVal;
 }
 

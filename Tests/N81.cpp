@@ -7,7 +7,7 @@ using namespace std;
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	 and 	 zero? 	 else 	
+	__RetVal = ' 	 and ' 	 zero? ' 	 else 	
 	return __RetVal;
 }
 

@@ -1,3 +1,3 @@
 (define (function var)
-    (AND 1 1)
+    (and 1 1)
 )

@@ -7,14 +7,14 @@ using namespace std;
 Object rule_30_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	not 	< 4 3 	
 	return __RetVal;
 }
 
 Object rule_30_b( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	not 	&& 	== 3 3 	< 2 3 	
 	return __RetVal;
 }
 

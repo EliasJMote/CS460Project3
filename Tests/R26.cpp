@@ -7,42 +7,42 @@ using namespace std;
 Object rule_26_a( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	
+	__RetVal = 	car ' 	 a 	
 	return __RetVal;
 }
 
 Object rule_26_b( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	
+	__RetVal = 	cdr ' 	 a 	
 	return __RetVal;
 }
 
 Object rule_26_c( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	 b 	
+	__RetVal = 	car ' 	 a 	 b 	
 	return __RetVal;
 }
 
 Object rule_26_d( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	 b 	
+	__RetVal = 	cdr ' 	 a 	 b 	
 	return __RetVal;
 }
 
 Object rule_26_e( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	 b 	
+	__RetVal = 	cadr ' 	 a 	 b 	
 	return __RetVal;
 }
 
 Object rule_26_f( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	 b 	
+	__RetVal = 	cddr ' 	 a 	 b 	
 	return __RetVal;
 }
 

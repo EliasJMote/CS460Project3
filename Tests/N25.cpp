@@ -7,7 +7,7 @@ using namespace std;
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	ident 	ident 	ident 	
+	__RetVal = 	cond	ident 	ident 	ident 	
 	return __RetVal;
 }
 

@@ -7,7 +7,7 @@ using namespace std;
 Object isList( a )
 {
 	Object __RetVal;
-	__RetVal = 	a 	a 	 param_passed_is_not_list 	
+	__RetVal = 	if	list? 	a 	a ' 	 param_passed_is_not_list 	
 	return __RetVal;
 }
 

@@ -7,7 +7,7 @@ using namespace std;
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	
+	__RetVal = 	cons 0 	x 	
 	return __RetVal;
 }
 

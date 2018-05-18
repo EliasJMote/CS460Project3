@@ -7,28 +7,28 @@ using namespace std;
 Object rule_24_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	if	> 3 4 2 3 	
 	return __RetVal;
 }
 
 Object rule_24_b( )
 {
 	Object __RetVal;
-	__RetVal = 	 true 	 false 	
+	__RetVal = 	if	< 3 4 ' 	 true ' 	 false 	
 	return __RetVal;
 }
 
 Object rule_24_c( )
 {
 	Object __RetVal;
-	__RetVal = 	 is_null 	 not_null 	
+	__RetVal = 	if	null? ' ' 	 is_null ' 	 not_null 	
 	return __RetVal;
 }
 
 Object rule_24_d( )
 {
 	Object __RetVal;
-	__RetVal = 	 3 	 is_zero 	 not_zero 	
+	__RetVal = 	if	zero? ' 	 3 ' 	 is_zero ' 	 not_zero 	
 	return __RetVal;
 }
 

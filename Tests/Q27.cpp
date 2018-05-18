@@ -7,7 +7,7 @@ using namespace std;
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	ls 	ls 	
+	__RetVal = 	cons 	car 	ls 	ls 	
 	return __RetVal;
 }
 

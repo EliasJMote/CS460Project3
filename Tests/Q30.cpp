@@ -7,7 +7,7 @@ using namespace std;
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = NOT()	
+	__RetVal = NOT(	== 1 1 )	
 	return __RetVal;
 }
 

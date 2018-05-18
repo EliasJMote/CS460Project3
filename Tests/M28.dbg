@@ -6,9 +6,9 @@ Input file: ./Tests/M28.ss
 	IDENT_T         function
 	IDENT_T         var
 	RPAREN_T        )
-   2:     (AND 1 1)
+   2:     (and 1 1)
 	LPAREN_T        (
-	IDENT_T         AND
+	AND_T           and
 	NUMLIT_T        1
 	NUMLIT_T        1
 	RPAREN_T        )

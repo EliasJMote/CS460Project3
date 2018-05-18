@@ -7,7 +7,7 @@ using namespace std;
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	 define 	 number? 	
+	__RetVal = 	if' 	 define ' 	 number? 	
 	return __RetVal;
 }
 

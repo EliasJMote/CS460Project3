@@ -7,7 +7,7 @@ using namespace std;
 Object LessThan( a b )
 {
 	Object __RetVal;
-	__RetVal = 	a 	b 	
+	__RetVal = 	< 	a 	b 	
 	return __RetVal;
 }
 

@@ -7,7 +7,7 @@ using namespace std;
 Object last( list )
 {
 	Object __RetVal;
-	__RetVal = 	list 	list last(	list )	
+	__RetVal = 	cond	null? 	cdr 	list 	car 	list last(	cdr 	list )	
 	return __RetVal;
 }
 

@@ -7,14 +7,14 @@ using namespace std;
 Object rule_42_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	== 2 2 	
 	return __RetVal;
 }
 
 Object rule_42_b( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	== 	
 	return __RetVal;
 }
 

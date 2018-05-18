@@ -7,7 +7,7 @@ using namespace std;
 Object symbolCheck( )
 {
 	Object __RetVal;
-	__RetVal = 	 symbol? 	a 	
+	__RetVal = ' 	 symbol? 	a 	
 	return __RetVal;
 }
 

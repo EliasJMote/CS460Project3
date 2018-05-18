@@ -5,7 +5,7 @@
 	IDENT_T         var
 	RPAREN_T        )
 	LPAREN_T        (
-	IDENT_T         AND
+	AND_T           and
 	NUMLIT_T        1
 	NUMLIT_T        1
 	RPAREN_T        )

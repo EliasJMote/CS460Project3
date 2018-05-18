@@ -7,7 +7,7 @@ using namespace std;
 Object rule_48_a( )
 {
 	Object __RetVal;
-	__RetVal = 	cout << ;
+	__RetVal = 	cout << "0118999\n" ;
 	
 	return __RetVal;
 }
@@ -15,7 +15,7 @@ Object rule_48_a( )
 Object rule_48_b( )
 {
 	Object __RetVal;
-	__RetVal = 	cout << ;
+	__RetVal = 	cout << 0118999 ;
 	
 	return __RetVal;
 }

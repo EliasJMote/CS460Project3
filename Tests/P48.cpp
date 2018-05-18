@@ -7,7 +7,7 @@ using namespace std;
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	cout << 	 a ;
+	__RetVal = 	cout << ' 	 a ;
 	
 	return __RetVal;
 }

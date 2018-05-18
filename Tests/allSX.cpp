@@ -7,7 +7,7 @@ using namespace std;
 Object f( )
 {
 	Object __RetVal;
-	__RetVal = 	 modulo 	 = 	
+	__RetVal = 	if' 	 modulo ' 	 = 	
 	return __RetVal;
 }
 
@@ -21,77 +21,77 @@ Object x( )
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	x 	
+	__RetVal = 	cond	x 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	
+	__RetVal = 	cons 0 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	|| 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	
+	__RetVal = 	number? 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	
+	__RetVal = 	list? 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	
+	__RetVal = 	null? 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	+ 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	
+	__RetVal = 	/ 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	x 	
+	__RetVal = 	modulo 	x 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	> 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	>= 	
 	return __RetVal;
 }
 
@@ -112,98 +112,98 @@ Object x( )
 Object f( )
 {
 	Object __RetVal;
-	__RetVal = 	 modulo 	 = 	
+	__RetVal = 	if' 	 modulo ' 	 = 	
 	return __RetVal;
 }
 
 Object isList( a )
 {
 	Object __RetVal;
-	__RetVal = 	a 	a 	 param_passed_is_not_list 	
+	__RetVal = 	if	list? 	a 	a ' 	 param_passed_is_not_list 	
 	return __RetVal;
 }
 
 Object isSymbol( a )
 {
 	Object __RetVal;
-	__RetVal = 	a 	
+	__RetVal = 	symbol? 	a 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	a 	b 	c 	
+	__RetVal = 	cond	a 	b 	c 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	a 	b 	
+	__RetVal = 	cons 	a 	b 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	b 	
+	__RetVal = 	|| 	b 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	a 	
+	__RetVal = 	number? 	a 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	list? 9 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	null? 9 	
 	return __RetVal;
 }
 
 Object add( a b )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	+ 	
 	return __RetVal;
 }
 
 Object divide( a b )
 {
 	Object __RetVal;
-	__RetVal = 	a 	b 	
+	__RetVal = 	/ 	a 	b 	
 	return __RetVal;
 }
 
 Object mod( a b )
 {
 	Object __RetVal;
-	__RetVal = 	a 	b 	
+	__RetVal = 	modulo 	a 	b 	
 	return __RetVal;
 }
 
 Object greater_than( a b )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	> 	
 	return __RetVal;
 }
 
 Object greater_equal( a b )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	>= 	
 	return __RetVal;
 }
 
@@ -224,21 +224,21 @@ Object nwln( )
 Object if_token( )
 {
 	Object __RetVal;
-	__RetVal = 	 if 	
+	__RetVal = ' 	 if 	
 	return __RetVal;
 }
 
 Object minus( a )
 {
 	Object __RetVal;
-	__RetVal = 	 - 	
+	__RetVal = ' 	 - 	
 	return __RetVal;
 }
 
 Object gte_token( )
 {
 	Object __RetVal;
-	__RetVal = 	 >= 	
+	__RetVal = ' 	 >= 	
 	return __RetVal;
 }
 
@@ -259,35 +259,35 @@ Object j( )
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	i 	i i()	
+	__RetVal = 	if	i 	i i()	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	i 	i 	
+	__RetVal = 	cond	i 	i 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = i()	
+	__RetVal = 	car 	car i()	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	i 	i 	i 	
+	__RetVal = 	cons 	cons 	i 	i 	i 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	
+	__RetVal = 	|| 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	
 	return __RetVal;
 }
 
@@ -301,112 +301,112 @@ Object i( j )
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	i 	
+	__RetVal = 	not 	i 	
 	return __RetVal;
 }
 
 Object mod( i j )
 {
 	Object __RetVal;
-	__RetVal = 	i 	i 	
+	__RetVal = 	modulo 	i 	i 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	 display 	
+	__RetVal = ' 	 display 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	 + 	
+	__RetVal = ' 	 + 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	 <= 	
+	__RetVal = ' 	 <= 	
 	return __RetVal;
 }
 
 Object rule25( )
 {
 	Object __RetVal;
-	__RetVal = 	 yeah 	
+	__RetVal = 	cond	== ' 	 yeah 	
 	return __RetVal;
 }
 
 Object rule27( )
 {
 	Object __RetVal;
-	__RetVal = const(	 a 	 b )	
+	__RetVal = const(' 	 a ' 	 b )	
 	return __RetVal;
 }
 
 Object rule29( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	|| 	
 	return __RetVal;
 }
 
 Object rule31( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	number? 0 	
 	return __RetVal;
 }
 
 Object rule33( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	list? 0 	
 	return __RetVal;
 }
 
 Object rule35( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	null? 0 	
 	return __RetVal;
 }
 
 Object rule37( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	+ 	
 	return __RetVal;
 }
 
 Object rule39( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	/ 1 	
 	return __RetVal;
 }
 
 Object rule41( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	modulo 5 2 	
 	return __RetVal;
 }
 
 Object rule43( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	> 	
 	return __RetVal;
 }
 
 Object rule45( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	>= 	
 	return __RetVal;
 }
 
@@ -427,70 +427,70 @@ Object rule49( )
 Object rules80( )
 {
 	Object __RetVal;
-	__RetVal = 	 car 	 null? 	 cond 	
+	__RetVal = 	cons ' 	 car 	cons ' 	 null? ' 	 cond 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 10 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = "a" 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	 2 	
+	__RetVal = ' 	 2 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	 2 	
+	__RetVal = ' 	 2 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = ' 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = ' 	
 	return __RetVal;
 }
 
 Object a( b )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 10 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 10 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	 define 	 number? 	
+	__RetVal = 	if' 	 define ' 	 number? 	
 	return __RetVal;
 }
 

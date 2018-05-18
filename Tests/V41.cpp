@@ -7,7 +7,7 @@ using namespace std;
 Object mod( i j )
 {
 	Object __RetVal;
-	__RetVal = 	i 	i 	
+	__RetVal = 	modulo 	i 	i 	
 	return __RetVal;
 }
 

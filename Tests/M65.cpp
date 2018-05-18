@@ -7,7 +7,7 @@ using namespace std;
 Object abc( )
 {
 	Object __RetVal;
-	__RetVal = 	 list? 	
+	__RetVal = ' 	 list? 	
 	return __RetVal;
 }
 

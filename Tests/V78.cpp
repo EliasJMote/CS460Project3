@@ -7,21 +7,21 @@ using namespace std;
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	 display 	
+	__RetVal = ' 	 display 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	 + 	
+	__RetVal = ' 	 + 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	 <= 	
+	__RetVal = ' 	 <= 	
 	return __RetVal;
 }
 

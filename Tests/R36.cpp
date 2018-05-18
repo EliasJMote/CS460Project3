@@ -7,7 +7,7 @@ using namespace std;
 Object rule_36_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	string? "hello, world" 	
 	return __RetVal;
 }
 

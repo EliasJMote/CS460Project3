@@ -7,14 +7,14 @@ using namespace std;
 Object rule_40_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	* 1 2 	
 	return __RetVal;
 }
 
 Object rule_40_b( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	* 	
 	return __RetVal;
 }
 

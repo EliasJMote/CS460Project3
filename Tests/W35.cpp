@@ -7,7 +7,7 @@ using namespace std;
 Object rule35( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	null? 0 	
 	return __RetVal;
 }
 

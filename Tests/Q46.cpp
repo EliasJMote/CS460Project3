@@ -7,7 +7,7 @@ using namespace std;
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	<= 2 2 	
 	return __RetVal;
 }
 

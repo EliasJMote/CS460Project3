@@ -28,6 +28,7 @@ SyntacticalAnalyzer::SyntacticalAnalyzer (char * filename)
   code = new CodeGen(filename, lex);
   tabs = 0;
   isMain = false;
+  buf = "";
   string name = filename;
   string p2name = name.substr (0, name.length()-3) + ".p2";
   p2file.open (p2name.c_str());
@@ -263,6 +264,8 @@ int SyntacticalAnalyzer::Stmt ()
   if(token == NUMLIT_T || token == STRLIT_T || token == QUOTE_T)
     {
       p2file << "Using Rule 7" << endl;
+      code->WriteCode(0, "Object (" + lex->GetLexeme() + ") " + buf);
+      buf = "";
       errors += Literal();
     }
 
@@ -270,7 +273,7 @@ int SyntacticalAnalyzer::Stmt ()
   else if(token == IDENT_T)
     {
       p2file << "Using Rule 8" << endl;
-      code->WriteCode(tabs, lex->GetLexeme() + " ");
+      code->WriteCode(0, lex->GetLexeme() + " ");
       token = lex->GetToken();
       return errors;
     }
@@ -692,6 +695,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 24
     case IF_T:
       p2file << "Using Rule 24" << endl;
+      code->WriteCode(tabs, lex->GetLexeme());
       token = lex->GetToken();
       errors += Stmt();
       errors += Stmt();
@@ -701,6 +705,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 25
     case COND_T:
       p2file << "Using Rule 25" << endl;
+      code->WriteCode(tabs, lex->GetLexeme());
       token = lex->GetToken();
       errors += Error_Helper(LPAREN_T, "Expecting LPAREN_T");
       errors += Stmt_Pair_Body();
@@ -709,6 +714,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 26
     case LISTOP_T:
       p2file << "Using Rule 26" << endl;
+      code->WriteCode(0, lex->GetLexeme() + " ");
       token = lex->GetToken();
       errors += Stmt();
       break;
@@ -716,6 +722,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 27
     case CONS_T:
       p2file << "Using Rule 27" << endl;
+      code->WriteCode(0, lex->GetLexeme() + " ");
       token = lex->GetToken();
       errors += Stmt();
       errors += Stmt();
@@ -724,6 +731,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 28
     case AND_T:
       p2file << "Using Rule 28" << endl;
+      buf = "&& ";
       token = lex->GetToken();
       errors += Stmt_List();
       break;
@@ -731,6 +739,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 29
     case OR_T:
       p2file << "Using Rule 29" << endl;
+      buf = "|| ";
       token = lex->GetToken();
       errors += Stmt_List();
       break;
@@ -738,6 +747,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 30
     case NOT_T:
       p2file << "Using Rule 30" << endl;
+      code->WriteCode(0, "!");
       token = lex->GetToken();
       errors += Stmt();
       break;
@@ -745,6 +755,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 31
     case NUMBERP_T:
       p2file << "Using Rule 31" << endl;
+      code->WriteCode(0, lex->GetLexeme() + " ");
       token = lex->GetToken();
       errors += Stmt();
       break;
@@ -752,6 +763,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 32
     case SYMBOLP_T:
       p2file << "Using Rule 32" << endl;
+      code->WriteCode(0, lex->GetLexeme() + " ");
       token = lex->GetToken();
       errors += Stmt();
       break;
@@ -759,6 +771,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 33
     case LISTP_T:
       p2file << "Using Rule 33" << endl;
+      code->WriteCode(0, lex->GetLexeme() + " ");
       token = lex->GetToken();
       errors += Stmt();
       break;
@@ -766,6 +779,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 34
     case ZEROP_T:
       p2file << "Using Rule 34" << endl;
+      code->WriteCode(0, lex->GetLexeme() + " ");
       token = lex->GetToken();
       errors += Stmt();
       break;
@@ -773,6 +787,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 35
     case NULLP_T:
       p2file << "Using Rule 35" << endl;
+      code->WriteCode(0, lex->GetLexeme() + " ");
       token = lex->GetToken();
       errors += Stmt();
       break;
@@ -780,6 +795,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 36
     case STRINGP_T:
       p2file << "Using Rule 36" << endl;
+      code->WriteCode(0, lex->GetLexeme() + " ");
       token = lex->GetToken();
       errors += Stmt();
       break;
@@ -787,6 +803,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 37
     case PLUS_T:
       p2file << "Using Rule 37" << endl;
+      buf = lex->GetLexeme() + " ";
       token = lex->GetToken();
       errors += Stmt_List();
       break;
@@ -794,6 +811,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 38
     case MINUS_T:
       p2file << "Using Rule 38" << endl;
+      buf = lex->GetLexeme() + " ";
       token = lex->GetToken();
       errors += Stmt();
       errors += Stmt_List();
@@ -802,6 +820,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 39
     case DIV_T:
       p2file << "Using Rule 39" << endl;
+      buf = lex->GetLexeme() + " ";
       token = lex->GetToken();
       errors += Stmt();
       errors += Stmt_List();
@@ -810,6 +829,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 40
     case MULT_T:
       p2file << "Using Rule 40" << endl;
+      buf = lex->GetLexeme() + " ";
       token = lex->GetToken();
       errors += Stmt_List();
       break;
@@ -817,6 +837,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 41
     case MODULO_T:
       p2file << "Using Rule 41" << endl;
+      buf = lex->GetLexeme() + " ";
       token = lex->GetToken();
       errors += Stmt();
       errors += Stmt();
@@ -825,6 +846,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 42
     case EQUALTO_T:
       p2file << "Using Rule 42" << endl;
+      buf = "== ";
       token = lex->GetToken();
       errors += Stmt_List();
       break;
@@ -832,6 +854,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 43
     case GT_T:
       p2file << "Using Rule 43" << endl;
+      buf = lex->GetLexeme() + " ";
       token = lex->GetToken();
       errors += Stmt_List();
       break;
@@ -839,6 +862,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 44
     case LT_T:
       p2file << "Using Rule 44" << endl;
+      buf = lex->GetLexeme() + " ";
       token = lex->GetToken();
       errors += Stmt_List();
       break;
@@ -846,6 +870,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 45
     case GTE_T:
       p2file << "Using Rule 45" << endl;
+      buf = lex->GetLexeme() + " ";
       token = lex->GetToken();
       errors += Stmt_List();
       break;
@@ -853,6 +878,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 46
     case LTE_T:
       p2file << "Using Rule 46" << endl;
+      buf = lex->GetLexeme() + " ";
       token = lex->GetToken();
       errors += Stmt_List();
       break;
@@ -878,6 +904,7 @@ int SyntacticalAnalyzer::Action ()
       // Rule 49
     case NEWLINE_T:
       p2file << "Using Rule 49" << endl;
+      code->WriteCode(tabs, "cout << endl;\n");
       token = lex->GetToken();
       break;
 

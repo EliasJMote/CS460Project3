@@ -10,8 +10,8 @@ Exiting Param_List function; current token is: RPAREN_T
 Exiting Param_List function; current token is: RPAREN_T
 Entering Stmt function; current token is: LPAREN_T, lexeme: (
 Using Rule 9
-Entering Action function; current token is: IDENT_T, lexeme: AND
-Using Rule 47
+Entering Action function; current token is: AND_T, lexeme: and
+Using Rule 28
 Entering Stmt_List function; current token is: NUMLIT_T, lexeme: 1
 Using Rule 5
 Entering Stmt function; current token is: NUMLIT_T, lexeme: 1

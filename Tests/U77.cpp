@@ -7,7 +7,7 @@ using namespace std;
 Object gte_token( )
 {
 	Object __RetVal;
-	__RetVal = 	 >= 	
+	__RetVal = ' 	 >= 	
 	return __RetVal;
 }
 

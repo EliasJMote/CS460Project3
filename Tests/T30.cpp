@@ -7,7 +7,7 @@ using namespace std;
 Object NotList( a )
 {
 	Object __RetVal;
-	__RetVal = 	a 	
+	__RetVal = 	not 	list? 	a 	
 	return __RetVal;
 }
 

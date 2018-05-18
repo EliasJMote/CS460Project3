@@ -7,7 +7,7 @@ using namespace std;
 Object rule41( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	modulo 5 2 	
 	return __RetVal;
 }
 

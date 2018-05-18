@@ -7,7 +7,7 @@ using namespace std;
 Object reciprocal( n )
 {
 	Object __RetVal;
-	__RetVal = 	 or 	
+	__RetVal = ' 	 or 	
 	return __RetVal;
 }
 

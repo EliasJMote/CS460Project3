@@ -7,7 +7,7 @@ using namespace std;
 Object reciprocal( n )
 {
 	Object __RetVal;
-	__RetVal = 	 zero 	
+	__RetVal = ' 	 zero 	
 	return __RetVal;
 }
 

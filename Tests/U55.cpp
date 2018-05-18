@@ -7,7 +7,7 @@ using namespace std;
 Object if_token( )
 {
 	Object __RetVal;
-	__RetVal = 	 if 	
+	__RetVal = ' 	 if 	
 	return __RetVal;
 }
 

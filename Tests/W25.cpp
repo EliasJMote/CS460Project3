@@ -7,7 +7,7 @@ using namespace std;
 Object rule25( )
 {
 	Object __RetVal;
-	__RetVal = 	 yeah 	
+	__RetVal = 	cond	== ' 	 yeah 	
 	return __RetVal;
 }
 

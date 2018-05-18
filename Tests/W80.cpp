@@ -7,7 +7,7 @@ using namespace std;
 Object rules80( )
 {
 	Object __RetVal;
-	__RetVal = 	 car 	 null? 	 cond 	
+	__RetVal = 	cons ' 	 car 	cons ' 	 null? ' 	 cond 	
 	return __RetVal;
 }
 

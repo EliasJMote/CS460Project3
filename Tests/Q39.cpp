@@ -7,7 +7,7 @@ using namespace std;
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	/ 4 2 	
 	return __RetVal;
 }
 

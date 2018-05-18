@@ -7,7 +7,7 @@ using namespace std;
 Object function( )
 {
 	Object __RetVal;
-	__RetVal = 	 string? 	
+	__RetVal = ' 	 string? 	
 	return __RetVal;
 }
 

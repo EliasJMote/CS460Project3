@@ -7,14 +7,14 @@ using namespace std;
 Object rule_44_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	< 3 4 	
 	return __RetVal;
 }
 
 Object rule_44_b( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	< 	
 	return __RetVal;
 }
 

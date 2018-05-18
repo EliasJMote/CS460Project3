@@ -7,15 +7,15 @@ using namespace std;
 Object odd_copy( ls )
 {
 	Object __RetVal;
-	__RetVal = 	ls 	ls 	ls 	ls 	ls odd_copy(	ls )	
+	__RetVal = 	cond	not 	list? 	ls "odd copy requires a list argument" 	null? 	ls ' 	null? 	cdr 	ls 	ls 	cons 	car 	ls odd_copy(	cddr 	ls )	
 	return __RetVal;
 }
 
 int main( )
 {
 	Object __RetVal;
-	cout << odd_copy(	 1 	 3 	 5 	 7 );
-	cout << odd_copy(	 1 	 3 	 5 	 7 	 9 );
+	cout << odd_copy(' 	 1 	 3 	 5 	 7 );
+	cout << odd_copy(' 	 1 	 3 	 5 	 7 	 9 );
 	
 	return 0;
 }

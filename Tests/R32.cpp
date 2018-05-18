@@ -7,7 +7,7 @@ using namespace std;
 Object rule_32_a( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	
+	__RetVal = 	symbol? ' 	 a 	
 	return __RetVal;
 }
 

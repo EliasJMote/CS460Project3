@@ -7,7 +7,7 @@ using namespace std;
 Object rule_38_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	- 4 2 	
 	return __RetVal;
 }
 

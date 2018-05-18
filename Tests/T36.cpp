@@ -7,7 +7,7 @@ using namespace std;
 Object isString( a )
 {
 	Object __RetVal;
-	__RetVal = 	a 	
+	__RetVal = 	string? 	a 	
 	return __RetVal;
 }
 

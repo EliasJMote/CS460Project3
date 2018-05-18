@@ -7,7 +7,7 @@ using namespace std;
 Object reciprocal( n )
 {
 	Object __RetVal;
-	__RetVal = 	 not 	
+	__RetVal = ' 	 not 	
 	return __RetVal;
 }
 

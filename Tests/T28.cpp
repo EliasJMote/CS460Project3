@@ -7,7 +7,7 @@ using namespace std;
 Object PositiveNumber( a )
 {
 	Object __RetVal;
-	__RetVal = 	a 	a 	
+	__RetVal = 	&& 	number? 	a 	<= 0 	a 	
 	return __RetVal;
 }
 

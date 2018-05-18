@@ -7,56 +7,56 @@ using namespace std;
 Object m( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 10 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	ls 	
+	__RetVal = 	cond	list? 	ls "is a list" 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	ls 	
+	__RetVal = 	car 	ls 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	ls 	ls 	
+	__RetVal = 	cons 	car 	ls 	ls 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = AND()	
+	__RetVal = AND(1 1 )	
 	return __RetVal;
 }
 
 Object functio1( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	* 2 2 	
 	return __RetVal;
 }
 
 Object function2( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	* 1 1 	
 	return __RetVal;
 }
 
 Object abc( )
 {
 	Object __RetVal;
-	__RetVal = 	 list? 	
+	__RetVal = ' 	 list? 	
 	return __RetVal;
 }
 
@@ -70,21 +70,21 @@ Object a( )
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	ident 	ident 	ident 	
+	__RetVal = 	cond	ident 	ident 	ident 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	 b 	
+	__RetVal = 	cons ' 	 a ' 	 b 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	|| 	
 	return __RetVal;
 }
 
@@ -112,35 +112,35 @@ Object a( )
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	+ 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	ident 	
+	__RetVal = 	/ 	ident 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	ident 	ident 	
+	__RetVal = 	modulo 	ident 	ident 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	> 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	>= 	
 	return __RetVal;
 }
 
@@ -161,56 +161,56 @@ Object a( )
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	 and 	 zero? 	 else 	
+	__RetVal = ' 	 and ' 	 zero? ' 	 else 	
 	return __RetVal;
 }
 
 Object last( list )
 {
 	Object __RetVal;
-	__RetVal = 	list 	list last(	list )	
+	__RetVal = 	cond	null? 	cdr 	list 	car 	list last(	cdr 	list )	
 	return __RetVal;
 }
 
 Object d( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	- 2 	
 	return __RetVal;
 }
 
 Object e( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	* 	
 	return __RetVal;
 }
 
 Object f( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	== 	
 	return __RetVal;
 }
 
 Object g( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	< 	
 	return __RetVal;
 }
 
 Object h( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	<= 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	cout << 	 a ;
+	__RetVal = 	cout << ' 	 a ;
 	
 	return __RetVal;
 }
@@ -218,385 +218,385 @@ Object i( )
 Object reciprocal( n )
 {
 	Object __RetVal;
-	__RetVal = 	 not 	
+	__RetVal = ' 	 not 	
 	return __RetVal;
 }
 
 Object symbolCheck( )
 {
 	Object __RetVal;
-	__RetVal = 	 symbol? 	a 	
+	__RetVal = ' 	 symbol? 	a 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	ls 	
+	__RetVal = 	cond	list? 	ls "is a list" 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	ls 	
+	__RetVal = 	car 	ls 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	ls 	ls 	
+	__RetVal = 	cons 	car 	ls 	ls 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = AND()	
+	__RetVal = AND(1 1 )	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = OR()	
+	__RetVal = OR(1 1 )	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = NOT()	
+	__RetVal = NOT(	== 1 1 )	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	number? 1 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	var 	
+	__RetVal = 	symbol? 	var 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	ls 	
+	__RetVal = 	list? 	ls 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	zero? 0 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	ls 	
+	__RetVal = 	null? 	ls 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	string? "asf" 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	+ 1 1 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	- 1 1 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	/ 4 2 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	* 2 2 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	modulo 4 2 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	== 1 1 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	> 2 1 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	< 1 2 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	>= 2 2 	
 	return __RetVal;
 }
 
 Object function( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	<= 2 2 	
 	return __RetVal;
 }
 
 Object functio1( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	* 2 2 	
 	return __RetVal;
 }
 
 Object function2( var )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	* 1 1 	
 	return __RetVal;
 }
 
 Object function( )
 {
 	Object __RetVal;
-	__RetVal = 	 newline 	
+	__RetVal = ' 	 newline 	
 	return __RetVal;
 }
 
 Object function( )
 {
 	Object __RetVal;
-	__RetVal = 	 string? 	
+	__RetVal = ' 	 string? 	
 	return __RetVal;
 }
 
 Object function( )
 {
 	Object __RetVal;
-	__RetVal = 	 ' 	 a 	
+	__RetVal = ' 	 ' 	 a 	
 	return __RetVal;
 }
 
 Object rule_24_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	if	> 3 4 2 3 	
 	return __RetVal;
 }
 
 Object rule_24_b( )
 {
 	Object __RetVal;
-	__RetVal = 	 true 	 false 	
+	__RetVal = 	if	< 3 4 ' 	 true ' 	 false 	
 	return __RetVal;
 }
 
 Object rule_24_c( )
 {
 	Object __RetVal;
-	__RetVal = 	 is_null 	 not_null 	
+	__RetVal = 	if	null? ' ' 	 is_null ' 	 not_null 	
 	return __RetVal;
 }
 
 Object rule_24_d( )
 {
 	Object __RetVal;
-	__RetVal = 	 3 	 is_zero 	 not_zero 	
+	__RetVal = 	if	zero? ' 	 3 ' 	 is_zero ' 	 not_zero 	
 	return __RetVal;
 }
 
 Object rule_26_a( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	
+	__RetVal = 	car ' 	 a 	
 	return __RetVal;
 }
 
 Object rule_26_b( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	
+	__RetVal = 	cdr ' 	 a 	
 	return __RetVal;
 }
 
 Object rule_26_c( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	 b 	
+	__RetVal = 	car ' 	 a 	 b 	
 	return __RetVal;
 }
 
 Object rule_26_d( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	 b 	
+	__RetVal = 	cdr ' 	 a 	 b 	
 	return __RetVal;
 }
 
 Object rule_26_e( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	 b 	
+	__RetVal = 	cadr ' 	 a 	 b 	
 	return __RetVal;
 }
 
 Object rule_26_f( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	 b 	
+	__RetVal = 	cddr ' 	 a 	 b 	
 	return __RetVal;
 }
 
 Object rule_28_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	&& 	
 	return __RetVal;
 }
 
 Object rule_30_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	not 	< 4 3 	
 	return __RetVal;
 }
 
 Object rule_30_b( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	not 	&& 	== 3 3 	< 2 3 	
 	return __RetVal;
 }
 
 Object rule_32_a( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	
+	__RetVal = 	symbol? ' 	 a 	
 	return __RetVal;
 }
 
 Object rule_34_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	zero? 0 	
 	return __RetVal;
 }
 
 Object rule_36_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	string? "hello, world" 	
 	return __RetVal;
 }
 
 Object rule_38_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	- 4 2 	
 	return __RetVal;
 }
 
 Object rule_40_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	* 1 2 	
 	return __RetVal;
 }
 
 Object rule_40_b( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	* 	
 	return __RetVal;
 }
 
 Object rule_42_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	== 2 2 	
 	return __RetVal;
 }
 
 Object rule_42_b( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	== 	
 	return __RetVal;
 }
 
 Object rule_44_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	< 3 4 	
 	return __RetVal;
 }
 
 Object rule_44_b( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	< 	
 	return __RetVal;
 }
 
 Object rule_46_a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	<= 3 3 	
 	return __RetVal;
 }
 
 Object rule_46_b( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	<= 	
 	return __RetVal;
 }
 
 Object rule_48_a( )
 {
 	Object __RetVal;
-	__RetVal = 	cout << ;
+	__RetVal = 	cout << "0118999\n" ;
 	
 	return __RetVal;
 }
@@ -604,7 +604,7 @@ Object rule_48_a( )
 Object rule_48_b( )
 {
 	Object __RetVal;
-	__RetVal = 	cout << ;
+	__RetVal = 	cout << 0118999 ;
 	
 	return __RetVal;
 }
@@ -612,14 +612,14 @@ Object rule_48_b( )
 Object rules_54_71_76_a( arg1 arg2 )
 {
 	Object __RetVal;
-	__RetVal = 	arg1 	arg1 	 < 	 arg1 	 10 	 cons 	 / 	 arg1 	 2 	 arg2 	
+	__RetVal = 	if	number? 	arg1 	if	&& 	> 	arg1 0 	list? ' 	 < 	 arg1 	 10 ' 	 cons 	 / 	 arg1 	 2 	 arg2 ' "Argument 1 should be a number\n" 	
 	return __RetVal;
 }
 
 Object f( )
 {
 	Object __RetVal;
-	__RetVal = 	 modulo 	 = 	
+	__RetVal = 	if' 	 modulo ' 	 = 	
 	return __RetVal;
 }
 
@@ -633,77 +633,77 @@ Object x( )
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	x 	
+	__RetVal = 	cond	x 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	
+	__RetVal = 	cons 0 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	|| 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	
+	__RetVal = 	number? 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	
+	__RetVal = 	list? 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	
+	__RetVal = 	null? 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	+ 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	
+	__RetVal = 	/ 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	x 	x 	
+	__RetVal = 	modulo 	x 	x 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	> 	
 	return __RetVal;
 }
 
 Object x( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	>= 	
 	return __RetVal;
 }
 
@@ -724,98 +724,98 @@ Object x( )
 Object f( )
 {
 	Object __RetVal;
-	__RetVal = 	 modulo 	 = 	
+	__RetVal = 	if' 	 modulo ' 	 = 	
 	return __RetVal;
 }
 
 Object isList( a )
 {
 	Object __RetVal;
-	__RetVal = 	a 	a 	 param_passed_is_not_list 	
+	__RetVal = 	if	list? 	a 	a ' 	 param_passed_is_not_list 	
 	return __RetVal;
 }
 
 Object isSymbol( a )
 {
 	Object __RetVal;
-	__RetVal = 	a 	
+	__RetVal = 	symbol? 	a 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	a 	b 	c 	
+	__RetVal = 	cond	a 	b 	c 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	a 	b 	
+	__RetVal = 	cons 	a 	b 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	b 	
+	__RetVal = 	|| 	b 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	a 	
+	__RetVal = 	number? 	a 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	list? 9 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	null? 9 	
 	return __RetVal;
 }
 
 Object add( a b )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	+ 	
 	return __RetVal;
 }
 
 Object divide( a b )
 {
 	Object __RetVal;
-	__RetVal = 	a 	b 	
+	__RetVal = 	/ 	a 	b 	
 	return __RetVal;
 }
 
 Object mod( a b )
 {
 	Object __RetVal;
-	__RetVal = 	a 	b 	
+	__RetVal = 	modulo 	a 	b 	
 	return __RetVal;
 }
 
 Object greater_than( a b )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	> 	
 	return __RetVal;
 }
 
 Object greater_equal( a b )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	>= 	
 	return __RetVal;
 }
 
@@ -836,21 +836,21 @@ Object nwln( )
 Object if_token( )
 {
 	Object __RetVal;
-	__RetVal = 	 if 	
+	__RetVal = ' 	 if 	
 	return __RetVal;
 }
 
 Object minus( a )
 {
 	Object __RetVal;
-	__RetVal = 	 - 	
+	__RetVal = ' 	 - 	
 	return __RetVal;
 }
 
 Object gte_token( )
 {
 	Object __RetVal;
-	__RetVal = 	 >= 	
+	__RetVal = ' 	 >= 	
 	return __RetVal;
 }
 
@@ -871,35 +871,35 @@ Object j( )
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	i 	i i()	
+	__RetVal = 	if	i 	i i()	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	i 	i 	
+	__RetVal = 	cond	i 	i 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = i()	
+	__RetVal = 	car 	car i()	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	i 	i 	i 	
+	__RetVal = 	cons 	cons 	i 	i 	i 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	
+	__RetVal = 	|| 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	i 	
 	return __RetVal;
 }
 
@@ -913,112 +913,112 @@ Object i( j )
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	i 	
+	__RetVal = 	not 	i 	
 	return __RetVal;
 }
 
 Object mod( i j )
 {
 	Object __RetVal;
-	__RetVal = 	i 	i 	
+	__RetVal = 	modulo 	i 	i 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	 display 	
+	__RetVal = ' 	 display 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	 + 	
+	__RetVal = ' 	 + 	
 	return __RetVal;
 }
 
 Object i( )
 {
 	Object __RetVal;
-	__RetVal = 	 <= 	
+	__RetVal = ' 	 <= 	
 	return __RetVal;
 }
 
 Object rule25( )
 {
 	Object __RetVal;
-	__RetVal = 	 yeah 	
+	__RetVal = 	cond	== ' 	 yeah 	
 	return __RetVal;
 }
 
 Object rule27( )
 {
 	Object __RetVal;
-	__RetVal = const(	 a 	 b )	
+	__RetVal = const(' 	 a ' 	 b )	
 	return __RetVal;
 }
 
 Object rule29( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	|| 	
 	return __RetVal;
 }
 
 Object rule31( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	number? 0 	
 	return __RetVal;
 }
 
 Object rule33( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	list? 0 	
 	return __RetVal;
 }
 
 Object rule35( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	null? 0 	
 	return __RetVal;
 }
 
 Object rule37( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	+ 	
 	return __RetVal;
 }
 
 Object rule39( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	/ 1 	
 	return __RetVal;
 }
 
 Object rule41( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	modulo 5 2 	
 	return __RetVal;
 }
 
 Object rule43( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	> 	
 	return __RetVal;
 }
 
 Object rule45( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 	>= 	
 	return __RetVal;
 }
 
@@ -1039,70 +1039,70 @@ Object rule49( )
 Object rules80( )
 {
 	Object __RetVal;
-	__RetVal = 	 car 	 null? 	 cond 	
+	__RetVal = 	cons ' 	 car 	cons ' 	 null? ' 	 cond 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 10 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = "a" 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	 2 	
+	__RetVal = ' 	 2 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	 2 	
+	__RetVal = ' 	 2 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = ' 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = ' 	
 	return __RetVal;
 }
 
 Object a( b )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 10 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	
+	__RetVal = 10 	
 	return __RetVal;
 }
 
 Object a( )
 {
 	Object __RetVal;
-	__RetVal = 	 define 	 number? 	
+	__RetVal = 	if' 	 define ' 	 number? 	
 	return __RetVal;
 }
 

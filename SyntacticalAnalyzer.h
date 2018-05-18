@@ -14,7 +14,6 @@
 #include <fstream>
 #include "LexicalAnalyzer.h"
 #include "CodeGenerator.h"
-#include "Object.h"
 
 using namespace std;
 
@@ -46,6 +45,7 @@ class SyntacticalAnalyzer
 	CodeGen * code;
 	int tabs;
 	bool isMain;
+	string buf;
 };
 	
 #endif
