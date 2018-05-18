@@ -1,3 +1,0 @@
-Input file: ./Tests/W29.ss
-   1: (define (rule29) (or)) 		; Rule 29
-0 errors found in input file

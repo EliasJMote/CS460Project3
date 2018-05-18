@@ -7,14 +7,14 @@ using namespace std;
 Object listop_ex1( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	 b 	 c 	 d 	 e 	 f 	
+	__RetVal = cons car Object ("a") b c cdr Object ("d") e f 	
 	return __RetVal;
 }
 
 Object listop_ex2( )
 {
 	Object __RetVal;
-	__RetVal = 	 a 	 b 	 c 	 d 	 e 	 f 	
+	__RetVal = cons cadr Object ("a") b c cddr Object ("d") e f 	
 	return __RetVal;
 }
 
@@ -22,7 +22,9 @@ int main( )
 {
 	Object __RetVal;
 	cout << listop_ex1();
+	cout << endl;
 	cout << listop_ex2();
+	cout << endl;
 	
 	return 0;
 }

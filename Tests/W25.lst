@@ -1,3 +1,0 @@
-Input file: ./Tests/W25.ss
-   1: (define (rule25) (cond ((=) 'yeah ))) 	; Rule 25
-0 errors found in input file

@@ -1,1 +1,0 @@
-(define(Sub a b) (- a b)) ;rule 38

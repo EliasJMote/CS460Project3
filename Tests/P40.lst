@@ -1,4 +1,0 @@
-Input file: ./Tests/P40.ss
-   1: (define (e)
-   2:   (*) )
-0 errors found in input file

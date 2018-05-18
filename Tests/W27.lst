@@ -1,3 +1,0 @@
-Input file: ./Tests/W27.ss
-   1: (define (rule27) (const '(a) '(b))) 	; Rule 27
-0 errors found in input file

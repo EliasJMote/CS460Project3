@@ -1,5 +1,0 @@
-Input file: ./Tests/R48.ss
-   1: ; Rule 48
-   2: (define (rule_48_a) (display "0118999\n"))
-   3: (define (rule_48_b) (display 0118999))
-0 errors found in input file

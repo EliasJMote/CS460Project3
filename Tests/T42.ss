@@ -1,1 +1,0 @@
-(define(EqaulTo a b) (= a b)) ; rule 42

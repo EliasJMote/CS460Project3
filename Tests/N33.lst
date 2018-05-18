@@ -1,4 +1,0 @@
-Input file: ./Tests/N33.ss
-   1: ;;33
-   2: (define (a) (listP ident))
-0 errors found in input file

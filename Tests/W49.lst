@@ -1,3 +1,0 @@
-Input file: ./Tests/W49.ss
-   1: (define (rule49) (newline)) 		; Rule 49
-0 errors found in input file

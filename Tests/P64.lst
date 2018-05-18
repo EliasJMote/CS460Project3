@@ -1,4 +1,0 @@
-Input file: ./Tests/P64.ss
-   1: (define (symbolCheck)
-   2:   'symbol? a)
-0 errors found in input file

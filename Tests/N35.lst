@@ -1,4 +1,0 @@
-Input file: ./Tests/N35.ss
-   1: ;;35
-   2: (define (a) (nullP ident))
-0 errors found in input file

@@ -1,1 +1,0 @@
-(define (isList a) (if (list? a) a 'param_passed_is_not_list)) ;rule 24 ; rule 33

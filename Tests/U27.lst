@@ -1,8 +1,0 @@
-Input file: ./Tests/U27.ss
-   1: ;; File: U27.ss
-   2: ;; Group U
-   3: 
-   4: (define (a)
-   5:   (cons a b)
-   6:   )
-0 errors found in input file

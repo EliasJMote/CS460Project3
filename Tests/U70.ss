@@ -1,1 +1,0 @@
-(define (minus a) '-)

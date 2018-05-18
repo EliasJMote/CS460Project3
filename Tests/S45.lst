@@ -1,7 +1,0 @@
-Input file: ./Tests/S45.ss
-   1: ;; File: S45.ss
-   2: ;; Authors: Devin Brown and Ryan Moeller
-   3: 
-   4: ;; Rule 45
-   5: (define (x) (>=))
-0 errors found in input file

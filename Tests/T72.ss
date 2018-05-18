@@ -1,1 +1,0 @@
-(define (square) '*) ;rule72

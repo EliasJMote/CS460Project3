@@ -1,1 +1,0 @@
-(define(LessThanEqual a b) ( <= a b )) ;rule 46

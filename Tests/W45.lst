@@ -1,3 +1,0 @@
-Input file: ./Tests/W45.ss
-   1: (define (rule45) (>=)) 		; Rule 45
-0 errors found in input file

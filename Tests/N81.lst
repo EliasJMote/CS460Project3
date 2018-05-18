@@ -1,3 +1,0 @@
-Input file: ./Tests/N81.ss
-   1: (define (a) '(and)'(zero?)'(else))
-0 errors found in input file

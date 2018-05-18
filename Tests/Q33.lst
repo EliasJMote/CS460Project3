@@ -1,5 +1,0 @@
-Input file: ./Tests/Q33.ss
-   1: (define (function var)
-   2:     (list? ls)
-   3: )
-0 errors found in input file

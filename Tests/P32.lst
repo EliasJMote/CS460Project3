@@ -1,4 +1,0 @@
-Input file: ./Tests/P32.ss
-   1: (define (a)
-   2:   (symbol? 'a))
-0 errors found in input file

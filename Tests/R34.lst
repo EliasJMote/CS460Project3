@@ -1,4 +1,0 @@
-Input file: ./Tests/R34.ss
-   1: ; Rule 34
-   2: (define (rule_34_a) (zero? 0))
-0 errors found in input file

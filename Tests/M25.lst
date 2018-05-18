@@ -1,6 +1,0 @@
-Input file: ./Tests/M25.ss
-   1: (define (function var)
-   2:     (cond ((list? ls) "is a list")
-   3:     )
-   4: )
-0 errors found in input file

@@ -1,9 +1,0 @@
-Input file: ./Tests/M4.ss
-   1: (define (functio1 var)
-   2:     (* 2 2)
-   3: )
-   4: 
-   5: (define (function2 var)
-   6:     (* 1 1)
-   7: )
-0 errors found in input file

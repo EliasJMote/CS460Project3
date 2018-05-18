@@ -1,5 +1,0 @@
-Input file: ./Tests/U41.ss
-   1: (define (mod a b)
-   2:   (modulo a b)
-   3:   )
-0 errors found in input file

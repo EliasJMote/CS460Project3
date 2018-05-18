@@ -1,3 +1,0 @@
-(define (reciprocal n)
-  'not
-  )

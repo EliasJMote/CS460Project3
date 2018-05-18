@@ -1,3 +1,0 @@
-Input file: ./Tests/T48.ss
-   1: (define(DisplayZ a) (display a));rule 48
-0 errors found in input file
