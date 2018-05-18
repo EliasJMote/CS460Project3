@@ -1,0 +1,3 @@
+Input file: ./Tests/T38.ss
+   1: (define(Sub a b) (- a b)) ;rule 38
+0 errors found in input file

@@ -1,0 +1,7 @@
+Input file: ./Tests/S41.ss
+   1: ;; File: S41.ss
+   2: ;; Authors: Devin Brown and Ryan Moeller
+   3: 
+   4: ;; Rule 41
+   5: (define (x) (modulo x x))
+0 errors found in input file

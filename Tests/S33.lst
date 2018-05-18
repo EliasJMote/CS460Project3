@@ -1,0 +1,7 @@
+Input file: ./Tests/S33.ss
+   1: ;; File: S33.ss
+   2: ;; Authors: Devin Brown and Ryan Moeller
+   3: 
+   4: ;; Rule 33
+   5: (define (x) (list? x))
+0 errors found in input file

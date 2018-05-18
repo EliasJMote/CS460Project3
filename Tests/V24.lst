@@ -1,0 +1,3 @@
+Input file: ./Tests/V24.ss
+   1: (define (i) (if i i (i)))
+0 errors found in input file

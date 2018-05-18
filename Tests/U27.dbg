@@ -1,0 +1,20 @@
+Input file: ./Tests/U27.ss
+   1: ;; File: U27.ss
+   2: ;; Group U
+   3: 
+   4: (define (a)
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         a
+	RPAREN_T        )
+   5:   (cons a b)
+	LPAREN_T        (
+	CONS_T          cons
+	IDENT_T         a
+	IDENT_T         b
+	RPAREN_T        )
+   6:   )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

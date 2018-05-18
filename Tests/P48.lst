@@ -1,0 +1,4 @@
+Input file: ./Tests/P48.ss
+   1: (define (i)
+   2:   (display 'a))
+0 errors found in input file

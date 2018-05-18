@@ -1,0 +1,5 @@
+Input file: ./Tests/R46.ss
+   1: ; Rule 46
+   2: (define (rule_46_a) (<= 3 3))
+   3: (define (rule_46_b) (<=))
+0 errors found in input file

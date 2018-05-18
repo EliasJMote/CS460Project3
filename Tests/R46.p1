@@ -1,0 +1,21 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule_46_a
+	RPAREN_T        )
+	LPAREN_T        (
+	LTE_T           <=
+	NUMLIT_T        3
+	NUMLIT_T        3
+	RPAREN_T        )
+	RPAREN_T        )
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule_46_b
+	RPAREN_T        )
+	LPAREN_T        (
+	LTE_T           <=
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

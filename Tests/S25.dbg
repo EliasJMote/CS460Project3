@@ -1,0 +1,21 @@
+Input file: ./Tests/S25.ss
+   1: ;; File: S25.ss
+   2: ;; Authors: Devin Brown and Ryan Moeller
+   3: 
+   4: ;; Rule 25
+   5: (define (x) (cond (x x)))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x
+	RPAREN_T        )
+	LPAREN_T        (
+	COND_T          cond
+	LPAREN_T        (
+	IDENT_T         x
+	IDENT_T         x
+	RPAREN_T        )
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

@@ -1,0 +1,11 @@
+Input file: ./Tests/main.ss
+   1: (main)
+Error at 1,5: Missing define
+Error at 1,6: Missing left parenthesis
+Error at 1,7: Missing identifier
+Error at 1,7: Expecting first or follows of Param_List; found: 
+Error at 1,7: Missing right parenthesis
+Error at 1,7: Expecting first or follows of Stmt; found: 
+Error at 1,7: Expecting first or follows of Stmt_List; found: 
+Error at 1,7: Missing right parenthesis
+8 errors found in input file

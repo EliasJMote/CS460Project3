@@ -1,0 +1,4 @@
+Input file: ./Tests/T32.ss
+   1: ;follow actual  structure, all start with define 
+   2: (define (isSymbol a) (symbol? a)) ; rule 32
+0 errors found in input file

@@ -1,0 +1,14 @@
+Input file: ./Tests/P42.ss
+   1: (define (f)
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         f
+	RPAREN_T        )
+   2:   (=) )
+	LPAREN_T        (
+	EQUALTO_T       =
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

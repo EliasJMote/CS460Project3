@@ -1,0 +1,5 @@
+Input file: ./Tests/Q41.ss
+   1: (define (function var)
+   2:     (modulo 4 2)
+   3: )
+0 errors found in input file

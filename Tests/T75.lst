@@ -1,0 +1,3 @@
+Input file: ./Tests/T75.ss
+   1: (define (greater) '>)
+0 errors found in input file

@@ -1,0 +1,10 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         reciprocal
+	IDENT_T         n
+	RPAREN_T        )
+	QUOTE_T         '
+	NOT_T           not
+	RPAREN_T        )
+	EOF_T           

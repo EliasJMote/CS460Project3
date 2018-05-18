@@ -1,0 +1,5 @@
+Input file: ./Tests/N66.ss
+   1: (define (reciprocal n)
+   2:   'zero
+   3:   )
+0 errors found in input file

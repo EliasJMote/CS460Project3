@@ -1,0 +1,12 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule_38_a
+	RPAREN_T        )
+	LPAREN_T        (
+	MINUS_T         -
+	NUMLIT_T        4
+	NUMLIT_T        2
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

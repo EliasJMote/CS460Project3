@@ -1,0 +1,15 @@
+Input file: ./Tests/N31.ss
+   1: ;;31
+   2: (define (a) (numberP ident))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         a
+	RPAREN_T        )
+	LPAREN_T        (
+	IDENT_T         numberP
+	IDENT_T         ident
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

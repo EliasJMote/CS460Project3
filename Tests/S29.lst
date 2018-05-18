@@ -1,0 +1,7 @@
+Input file: ./Tests/S29.ss
+   1: ;; File: S29.ss
+   2: ;; Authors: Devin Brown and Ryan Moeller
+   3: 
+   4: ;; Rule 29
+   5: (define (x) (or))
+0 errors found in input file

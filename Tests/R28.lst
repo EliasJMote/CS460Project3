@@ -1,0 +1,4 @@
+Input file: ./Tests/R28.ss
+   1: ; Rule 28
+   2: (define (rule_28_a) (and))
+0 errors found in input file

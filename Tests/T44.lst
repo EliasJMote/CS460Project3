@@ -1,0 +1,3 @@
+Input file: ./Tests/T44.ss
+   1: (define(LessThan a b) ( < a b));rule 44
+0 errors found in input file

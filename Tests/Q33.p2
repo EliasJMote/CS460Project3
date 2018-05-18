@@ -1,0 +1,26 @@
+Entering Program function; current token is: LPAREN_T, lexeme: (
+Using Rule 1
+Entering Define function; current token is: LPAREN_T, lexeme: (
+Using Rule 2
+Entering Param_List function; current token is: IDENT_T, lexeme: var
+Using Rule 16
+Entering Param_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 17
+Exiting Param_List function; current token is: RPAREN_T
+Exiting Param_List function; current token is: RPAREN_T
+Entering Stmt function; current token is: LPAREN_T, lexeme: (
+Using Rule 9
+Entering Action function; current token is: LISTP_T, lexeme: list?
+Using Rule 33
+Entering Stmt function; current token is: IDENT_T, lexeme: ls
+Using Rule 8
+Exiting Action function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Entering Stmt_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 6
+Exiting Stmt_List function; current token is: RPAREN_T
+Exiting Define function; current token is: EOF_T
+Entering More_Defines function; current token is: EOF_T, lexeme: 
+Using Rule 4
+Exiting More_Defines function; current token is: EOF_T
+Exiting Program function; current token is: EOF_T

@@ -1,0 +1,12 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         isString
+	IDENT_T         a
+	RPAREN_T        )
+	LPAREN_T        (
+	STRINGP_T       string?
+	IDENT_T         a
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

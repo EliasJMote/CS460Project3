@@ -1,0 +1,15 @@
+Input file: ./Tests/T34.ss
+   1: (define (isZero a) (zero? a)) ;rule 34
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         isZero
+	IDENT_T         a
+	RPAREN_T        )
+	LPAREN_T        (
+	ZEROP_T         zero?
+	IDENT_T         a
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

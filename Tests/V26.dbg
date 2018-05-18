@@ -1,0 +1,19 @@
+Input file: ./Tests/V26.ss
+   1: (define (i) (car (car (i))))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         i
+	RPAREN_T        )
+	LPAREN_T        (
+	LISTOP_T        car
+	LPAREN_T        (
+	LISTOP_T        car
+	LPAREN_T        (
+	IDENT_T         i
+	RPAREN_T        )
+	RPAREN_T        )
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

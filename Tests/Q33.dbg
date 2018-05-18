@@ -1,0 +1,17 @@
+Input file: ./Tests/Q33.ss
+   1: (define (function var)
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         function
+	IDENT_T         var
+	RPAREN_T        )
+   2:     (list? ls)
+	LPAREN_T        (
+	LISTP_T         list?
+	IDENT_T         ls
+	RPAREN_T        )
+   3: )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

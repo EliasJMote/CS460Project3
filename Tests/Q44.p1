@@ -1,0 +1,13 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         function
+	IDENT_T         var
+	RPAREN_T        )
+	LPAREN_T        (
+	LT_T            <
+	NUMLIT_T        1
+	NUMLIT_T        2
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

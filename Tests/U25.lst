@@ -1,0 +1,10 @@
+Input file: ./Tests/U25.ss
+   1: ;; File: U25.ss
+   2: ;; Group U
+   3: 
+   4: (define (a)
+   5:   (cond (a b)
+   6: 	(else c)
+   7: 	)
+   8:   )
+0 errors found in input file

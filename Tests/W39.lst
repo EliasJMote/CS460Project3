@@ -1,0 +1,3 @@
+Input file: ./Tests/W39.ss
+   1: (define (rule39) (/ 1)) 		; Rule 39
+0 errors found in input file

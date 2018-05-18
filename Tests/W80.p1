@@ -1,0 +1,19 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rules80
+	RPAREN_T        )
+	LPAREN_T        (
+	CONS_T          cons
+	QUOTE_T         '
+	LISTOP_T        car
+	LPAREN_T        (
+	CONS_T          cons
+	QUOTE_T         '
+	NULLP_T         null?
+	QUOTE_T         '
+	COND_T          cond
+	RPAREN_T        )
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

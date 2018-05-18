@@ -1,0 +1,5 @@
+Input file: ./Tests/R40.ss
+   1: ; Rule 40
+   2: (define (rule_40_a) (* 1 2))
+   3: (define (rule_40_b) (*))
+0 errors found in input file

@@ -1,0 +1,3 @@
+Input file: ./Tests/V30.ss
+   1: (define (i) (not i))
+0 errors found in input file

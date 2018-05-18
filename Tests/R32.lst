@@ -1,0 +1,4 @@
+Input file: ./Tests/R32.ss
+   1: ; Rule 32
+   2: (define (rule_32_a) (symbol? 'a))
+0 errors found in input file

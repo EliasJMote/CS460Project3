@@ -1,0 +1,5 @@
+Input file: ./Tests/R30.ss
+   1: ; Rule 30
+   2: (define (rule_30_a) (not (< 4 3)))
+   3: (define (rule_30_b) (not (and (= 3 3) (< 2 3))))
+0 errors found in input file

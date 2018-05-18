@@ -1,0 +1,4 @@
+Input file: ./Tests/N39.ss
+   1: ;;39
+   2: (define (a) (/ ident))
+0 errors found in input file

@@ -1,0 +1,15 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         i
+	RPAREN_T        )
+	LPAREN_T        (
+	IF_T            if
+	IDENT_T         i
+	IDENT_T         i
+	LPAREN_T        (
+	IDENT_T         i
+	RPAREN_T        )
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

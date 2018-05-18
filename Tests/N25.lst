@@ -1,0 +1,4 @@
+Input file: ./Tests/N25.ss
+   1: ;;25
+   2: (define (a) (cond (ident ident) (else ident )))
+0 errors found in input file

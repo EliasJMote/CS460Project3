@@ -1,0 +1,5 @@
+Input file: ./Tests/R44.ss
+   1: ; Rule 44
+   2: (define (rule_44_a) (< 3 4))
+   3: (define (rule_44_b) (<))
+0 errors found in input file

@@ -1,0 +1,7 @@
+Input file: ./Tests/P19.ss
+   1: (define (last list)
+   2:   (cond ((null? (cdr list)) (car list))
+   3: 	(else (last (cdr list)))
+   4: 	)
+   5:   )
+0 errors found in input file

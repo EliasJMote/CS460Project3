@@ -1,0 +1,11 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule_36_a
+	RPAREN_T        )
+	LPAREN_T        (
+	STRINGP_T       string?
+	STRLIT_T        "hello, world"
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

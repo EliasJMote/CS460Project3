@@ -1,0 +1,19 @@
+Input file: ./Tests/V27.ss
+   1: (define (i) (cons (cons i i) i))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         i
+	RPAREN_T        )
+	LPAREN_T        (
+	CONS_T          cons
+	LPAREN_T        (
+	CONS_T          cons
+	IDENT_T         i
+	IDENT_T         i
+	RPAREN_T        )
+	IDENT_T         i
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

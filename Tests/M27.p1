@@ -1,0 +1,16 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         function
+	IDENT_T         var
+	RPAREN_T        )
+	LPAREN_T        (
+	CONS_T          cons
+	LPAREN_T        (
+	LISTOP_T        car
+	IDENT_T         ls
+	RPAREN_T        )
+	IDENT_T         ls
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

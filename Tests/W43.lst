@@ -1,0 +1,3 @@
+Input file: ./Tests/W43.ss
+   1: (define (rule43) (>)) 			; Rule 43
+0 errors found in input file

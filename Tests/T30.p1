@@ -1,0 +1,15 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         NotList
+	IDENT_T         a
+	RPAREN_T        )
+	LPAREN_T        (
+	NOT_T           not
+	LPAREN_T        (
+	LISTP_T         list?
+	IDENT_T         a
+	RPAREN_T        )
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

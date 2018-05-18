@@ -1,0 +1,4 @@
+Input file: ./Tests/N49.ss
+   1: ;;49
+   2: (define (a) (newline))
+0 errors found in input file

@@ -1,0 +1,3 @@
+Input file: ./Tests/T34.ss
+   1: (define (isZero a) (zero? a)) ;rule 34
+0 errors found in input file

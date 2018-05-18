@@ -1,0 +1,4 @@
+Input file: ./Tests/P42.ss
+   1: (define (f)
+   2:   (=) )
+0 errors found in input file

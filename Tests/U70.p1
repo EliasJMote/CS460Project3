@@ -1,0 +1,10 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         minus
+	IDENT_T         a
+	RPAREN_T        )
+	QUOTE_T         '
+	MINUS_T         -
+	RPAREN_T        )
+	EOF_T           

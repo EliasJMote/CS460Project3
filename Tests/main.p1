@@ -1,0 +1,7 @@
+	LPAREN_T        (
+	IDENT_T         main
+	RPAREN_T        )
+	EOF_T           
+	EOF_T           
+	EOF_T           
+	EOF_T           

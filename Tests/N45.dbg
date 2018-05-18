@@ -1,0 +1,14 @@
+Input file: ./Tests/N45.ss
+   1: ;;45
+   2: (define (a) (>=))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         a
+	RPAREN_T        )
+	LPAREN_T        (
+	GTE_T           >=
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

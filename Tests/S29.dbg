@@ -1,0 +1,17 @@
+Input file: ./Tests/S29.ss
+   1: ;; File: S29.ss
+   2: ;; Authors: Devin Brown and Ryan Moeller
+   3: 
+   4: ;; Rule 29
+   5: (define (x) (or))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x
+	RPAREN_T        )
+	LPAREN_T        (
+	OR_T            or
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

@@ -1,0 +1,11 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         a
+	RPAREN_T        )
+	LPAREN_T        (
+	NULLP_T         null?
+	NUMLIT_T        9
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

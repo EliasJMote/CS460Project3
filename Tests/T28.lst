@@ -1,0 +1,3 @@
+Input file: ./Tests/T28.ss
+   1: (define (PositiveNumber a) (and (number? a) (<= 0 a))) ;rule 28 
+0 errors found in input file

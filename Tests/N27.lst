@@ -1,0 +1,4 @@
+Input file: ./Tests/N27.ss
+   1: ;;27
+   2: (define (a) (cons '(a) '(b)))
+0 errors found in input file

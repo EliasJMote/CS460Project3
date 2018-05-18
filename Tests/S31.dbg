@@ -1,0 +1,18 @@
+Input file: ./Tests/S31.ss
+   1: ;; File: S31.ss
+   2: ;; Authors: Devin Brown and Ryan Moeller
+   3: 
+   4: ;; Rule 31
+   5: (define (x) (number? x))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x
+	RPAREN_T        )
+	LPAREN_T        (
+	NUMBERP_T       number?
+	IDENT_T         x
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

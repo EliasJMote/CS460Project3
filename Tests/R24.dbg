@@ -1,0 +1,79 @@
+Input file: ./Tests/R24.ss
+   1: ; Rule 24
+   2: (define (rule_24_a) (if (> 3 4) 2 3))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule_24_a
+	RPAREN_T        )
+	LPAREN_T        (
+	IF_T            if
+	LPAREN_T        (
+	GT_T            >
+	NUMLIT_T        3
+	NUMLIT_T        4
+	RPAREN_T        )
+	NUMLIT_T        2
+	NUMLIT_T        3
+	RPAREN_T        )
+	RPAREN_T        )
+   3: (define (rule_24_b) (if (< 3 4) 'true 'false))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule_24_b
+	RPAREN_T        )
+	LPAREN_T        (
+	IF_T            if
+	LPAREN_T        (
+	LT_T            <
+	NUMLIT_T        3
+	NUMLIT_T        4
+	RPAREN_T        )
+	QUOTE_T         '
+	IDENT_T         true
+	QUOTE_T         '
+	IDENT_T         false
+	RPAREN_T        )
+	RPAREN_T        )
+   4: (define (rule_24_c) (if (null? '()) 'is_null 'not_null))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule_24_c
+	RPAREN_T        )
+	LPAREN_T        (
+	IF_T            if
+	LPAREN_T        (
+	NULLP_T         null?
+	QUOTE_T         '
+	LPAREN_T        (
+	RPAREN_T        )
+	RPAREN_T        )
+	QUOTE_T         '
+	IDENT_T         is_null
+	QUOTE_T         '
+	IDENT_T         not_null
+	RPAREN_T        )
+	RPAREN_T        )
+   5: (define (rule_24_d) (if (zero? '3) 'is_zero 'not_zero))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule_24_d
+	RPAREN_T        )
+	LPAREN_T        (
+	IF_T            if
+	LPAREN_T        (
+	ZEROP_T         zero?
+	QUOTE_T         '
+	NUMLIT_T        3
+	RPAREN_T        )
+	QUOTE_T         '
+	IDENT_T         is_zero
+	QUOTE_T         '
+	IDENT_T         not_zero
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

@@ -1,0 +1,4 @@
+Input file: ./Tests/R36.ss
+   1: ; Rule 36
+   2: (define (rule_36_a) (string? "hello, world"))
+0 errors found in input file

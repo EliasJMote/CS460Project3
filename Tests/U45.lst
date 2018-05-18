@@ -1,0 +1,3 @@
+Input file: ./Tests/U45.ss
+   1: (define (greater_equal a b) (>=))
+0 errors found in input file

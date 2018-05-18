@@ -1,0 +1,4 @@
+Input file: ./Tests/R38.ss
+   1: ; Rule 38
+   2: (define (rule_38_a) (- 4 2))
+0 errors found in input file

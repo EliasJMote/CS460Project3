@@ -1,0 +1,11 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule31
+	RPAREN_T        )
+	LPAREN_T        (
+	NUMBERP_T       number?
+	NUMLIT_T        0
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

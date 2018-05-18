@@ -1,0 +1,16 @@
+Input file: ./Tests/R32.ss
+   1: ; Rule 32
+   2: (define (rule_32_a) (symbol? 'a))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule_32_a
+	RPAREN_T        )
+	LPAREN_T        (
+	SYMBOLP_T       symbol?
+	QUOTE_T         '
+	IDENT_T         a
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

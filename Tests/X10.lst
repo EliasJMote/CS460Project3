@@ -1,0 +1,3 @@
+Input file: ./Tests/X10.ss
+   1: (define (a) 10)
+0 errors found in input file

@@ -1,0 +1,4 @@
+Input file: ./Tests/P38.ss
+   1: (define (d)
+   2:   (- 2))
+0 errors found in input file

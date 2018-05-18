@@ -1,0 +1,17 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule25
+	RPAREN_T        )
+	LPAREN_T        (
+	COND_T          cond
+	LPAREN_T        (
+	LPAREN_T        (
+	EQUALTO_T       =
+	RPAREN_T        )
+	QUOTE_T         '
+	IDENT_T         yeah
+	RPAREN_T        )
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

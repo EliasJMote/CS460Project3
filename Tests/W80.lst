@@ -1,0 +1,4 @@
+Input file: ./Tests/W80.ss
+   1: (define (rules80) (cons 'car (cons 'null? 'cond )))
+   2: 
+0 errors found in input file

@@ -1,0 +1,263 @@
+Entering Program function; current token is: LPAREN_T, lexeme: (
+Using Rule 1
+Entering Define function; current token is: LPAREN_T, lexeme: (
+Using Rule 2
+Entering Param_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 17
+Exiting Param_List function; current token is: RPAREN_T
+Entering Stmt function; current token is: LPAREN_T, lexeme: (
+Using Rule 9
+Entering Action function; current token is: IF_T, lexeme: if
+Using Rule 24
+Entering Stmt function; current token is: LPAREN_T, lexeme: (
+Using Rule 9
+Entering Action function; current token is: GT_T, lexeme: >
+Using Rule 43
+Entering Stmt_List function; current token is: NUMLIT_T, lexeme: 3
+Using Rule 5
+Entering Stmt function; current token is: NUMLIT_T, lexeme: 3
+Using Rule 7
+Entering Literal function; current token is: NUMLIT_T, lexeme: 3
+Using Rule 10
+Exiting Literal function; current token is: NUMLIT_T
+Exiting Stmt function; current token is: NUMLIT_T
+Entering Stmt_List function; current token is: NUMLIT_T, lexeme: 4
+Using Rule 5
+Entering Stmt function; current token is: NUMLIT_T, lexeme: 4
+Using Rule 7
+Entering Literal function; current token is: NUMLIT_T, lexeme: 4
+Using Rule 10
+Exiting Literal function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Entering Stmt_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 6
+Exiting Stmt_List function; current token is: RPAREN_T
+Exiting Stmt_List function; current token is: RPAREN_T
+Exiting Stmt_List function; current token is: RPAREN_T
+Exiting Action function; current token is: RPAREN_T
+Exiting Stmt function; current token is: NUMLIT_T
+Entering Stmt function; current token is: NUMLIT_T, lexeme: 2
+Using Rule 7
+Entering Literal function; current token is: NUMLIT_T, lexeme: 2
+Using Rule 10
+Exiting Literal function; current token is: NUMLIT_T
+Exiting Stmt function; current token is: NUMLIT_T
+Entering Else_Part function; current token is: NUMLIT_T, lexeme: 3
+Using Rule 18
+Entering Stmt function; current token is: NUMLIT_T, lexeme: 3
+Using Rule 7
+Entering Literal function; current token is: NUMLIT_T, lexeme: 3
+Using Rule 10
+Exiting Literal function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Exiting Else_Part function; current token is: RPAREN_T
+Exiting Action function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Entering Stmt_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 6
+Exiting Stmt_List function; current token is: RPAREN_T
+Exiting Define function; current token is: LPAREN_T
+Entering More_Defines function; current token is: LPAREN_T, lexeme: (
+Using Rule 3
+Entering Define function; current token is: LPAREN_T, lexeme: (
+Using Rule 2
+Entering Param_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 17
+Exiting Param_List function; current token is: RPAREN_T
+Entering Stmt function; current token is: LPAREN_T, lexeme: (
+Using Rule 9
+Entering Action function; current token is: IF_T, lexeme: if
+Using Rule 24
+Entering Stmt function; current token is: LPAREN_T, lexeme: (
+Using Rule 9
+Entering Action function; current token is: LT_T, lexeme: <
+Using Rule 44
+Entering Stmt_List function; current token is: NUMLIT_T, lexeme: 3
+Using Rule 5
+Entering Stmt function; current token is: NUMLIT_T, lexeme: 3
+Using Rule 7
+Entering Literal function; current token is: NUMLIT_T, lexeme: 3
+Using Rule 10
+Exiting Literal function; current token is: NUMLIT_T
+Exiting Stmt function; current token is: NUMLIT_T
+Entering Stmt_List function; current token is: NUMLIT_T, lexeme: 4
+Using Rule 5
+Entering Stmt function; current token is: NUMLIT_T, lexeme: 4
+Using Rule 7
+Entering Literal function; current token is: NUMLIT_T, lexeme: 4
+Using Rule 10
+Exiting Literal function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Entering Stmt_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 6
+Exiting Stmt_List function; current token is: RPAREN_T
+Exiting Stmt_List function; current token is: RPAREN_T
+Exiting Stmt_List function; current token is: RPAREN_T
+Exiting Action function; current token is: RPAREN_T
+Exiting Stmt function; current token is: QUOTE_T
+Entering Stmt function; current token is: QUOTE_T, lexeme: '
+Using Rule 7
+Entering Literal function; current token is: QUOTE_T, lexeme: '
+Using Rule 12
+Entering Quoted_Lit function; current token is: IDENT_T, lexeme: true
+Using Rule 13
+Entering Any_Other_Token function; current token is: IDENT_T, lexeme: true
+Using Rule 51
+Exiting Any_Other_Token function; current token is: QUOTE_T
+Exiting Quoted_Lit function; current token is: QUOTE_T
+Exiting Literal function; current token is: QUOTE_T
+Exiting Stmt function; current token is: QUOTE_T
+Entering Else_Part function; current token is: QUOTE_T, lexeme: '
+Using Rule 18
+Entering Stmt function; current token is: QUOTE_T, lexeme: '
+Using Rule 7
+Entering Literal function; current token is: QUOTE_T, lexeme: '
+Using Rule 12
+Entering Quoted_Lit function; current token is: IDENT_T, lexeme: false
+Using Rule 13
+Entering Any_Other_Token function; current token is: IDENT_T, lexeme: false
+Using Rule 51
+Exiting Any_Other_Token function; current token is: RPAREN_T
+Exiting Quoted_Lit function; current token is: RPAREN_T
+Exiting Literal function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Exiting Else_Part function; current token is: RPAREN_T
+Exiting Action function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Entering Stmt_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 6
+Exiting Stmt_List function; current token is: RPAREN_T
+Exiting Define function; current token is: LPAREN_T
+Entering More_Defines function; current token is: LPAREN_T, lexeme: (
+Using Rule 3
+Entering Define function; current token is: LPAREN_T, lexeme: (
+Using Rule 2
+Entering Param_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 17
+Exiting Param_List function; current token is: RPAREN_T
+Entering Stmt function; current token is: LPAREN_T, lexeme: (
+Using Rule 9
+Entering Action function; current token is: IF_T, lexeme: if
+Using Rule 24
+Entering Stmt function; current token is: LPAREN_T, lexeme: (
+Using Rule 9
+Entering Action function; current token is: NULLP_T, lexeme: null?
+Using Rule 35
+Entering Stmt function; current token is: QUOTE_T, lexeme: '
+Using Rule 7
+Entering Literal function; current token is: QUOTE_T, lexeme: '
+Using Rule 12
+Entering Quoted_Lit function; current token is: LPAREN_T, lexeme: (
+Using Rule 13
+Entering Any_Other_Token function; current token is: LPAREN_T, lexeme: (
+Using Rule 50
+Entering More_Tokens function; current token is: RPAREN_T, lexeme: )
+Exiting More_Tokens function; current token is: RPAREN_T
+Exiting Any_Other_Token function; current token is: RPAREN_T
+Exiting Quoted_Lit function; current token is: RPAREN_T
+Exiting Literal function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Exiting Action function; current token is: RPAREN_T
+Exiting Stmt function; current token is: QUOTE_T
+Entering Stmt function; current token is: QUOTE_T, lexeme: '
+Using Rule 7
+Entering Literal function; current token is: QUOTE_T, lexeme: '
+Using Rule 12
+Entering Quoted_Lit function; current token is: IDENT_T, lexeme: is_null
+Using Rule 13
+Entering Any_Other_Token function; current token is: IDENT_T, lexeme: is_null
+Using Rule 51
+Exiting Any_Other_Token function; current token is: QUOTE_T
+Exiting Quoted_Lit function; current token is: QUOTE_T
+Exiting Literal function; current token is: QUOTE_T
+Exiting Stmt function; current token is: QUOTE_T
+Entering Else_Part function; current token is: QUOTE_T, lexeme: '
+Using Rule 18
+Entering Stmt function; current token is: QUOTE_T, lexeme: '
+Using Rule 7
+Entering Literal function; current token is: QUOTE_T, lexeme: '
+Using Rule 12
+Entering Quoted_Lit function; current token is: IDENT_T, lexeme: not_null
+Using Rule 13
+Entering Any_Other_Token function; current token is: IDENT_T, lexeme: not_null
+Using Rule 51
+Exiting Any_Other_Token function; current token is: RPAREN_T
+Exiting Quoted_Lit function; current token is: RPAREN_T
+Exiting Literal function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Exiting Else_Part function; current token is: RPAREN_T
+Exiting Action function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Entering Stmt_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 6
+Exiting Stmt_List function; current token is: RPAREN_T
+Exiting Define function; current token is: LPAREN_T
+Entering More_Defines function; current token is: LPAREN_T, lexeme: (
+Using Rule 3
+Entering Define function; current token is: LPAREN_T, lexeme: (
+Using Rule 2
+Entering Param_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 17
+Exiting Param_List function; current token is: RPAREN_T
+Entering Stmt function; current token is: LPAREN_T, lexeme: (
+Using Rule 9
+Entering Action function; current token is: IF_T, lexeme: if
+Using Rule 24
+Entering Stmt function; current token is: LPAREN_T, lexeme: (
+Using Rule 9
+Entering Action function; current token is: ZEROP_T, lexeme: zero?
+Using Rule 34
+Entering Stmt function; current token is: QUOTE_T, lexeme: '
+Using Rule 7
+Entering Literal function; current token is: QUOTE_T, lexeme: '
+Using Rule 12
+Entering Quoted_Lit function; current token is: NUMLIT_T, lexeme: 3
+Using Rule 13
+Entering Any_Other_Token function; current token is: NUMLIT_T, lexeme: 3
+Using Rule 52
+Exiting Any_Other_Token function; current token is: RPAREN_T
+Exiting Quoted_Lit function; current token is: RPAREN_T
+Exiting Literal function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Exiting Action function; current token is: RPAREN_T
+Exiting Stmt function; current token is: QUOTE_T
+Entering Stmt function; current token is: QUOTE_T, lexeme: '
+Using Rule 7
+Entering Literal function; current token is: QUOTE_T, lexeme: '
+Using Rule 12
+Entering Quoted_Lit function; current token is: IDENT_T, lexeme: is_zero
+Using Rule 13
+Entering Any_Other_Token function; current token is: IDENT_T, lexeme: is_zero
+Using Rule 51
+Exiting Any_Other_Token function; current token is: QUOTE_T
+Exiting Quoted_Lit function; current token is: QUOTE_T
+Exiting Literal function; current token is: QUOTE_T
+Exiting Stmt function; current token is: QUOTE_T
+Entering Else_Part function; current token is: QUOTE_T, lexeme: '
+Using Rule 18
+Entering Stmt function; current token is: QUOTE_T, lexeme: '
+Using Rule 7
+Entering Literal function; current token is: QUOTE_T, lexeme: '
+Using Rule 12
+Entering Quoted_Lit function; current token is: IDENT_T, lexeme: not_zero
+Using Rule 13
+Entering Any_Other_Token function; current token is: IDENT_T, lexeme: not_zero
+Using Rule 51
+Exiting Any_Other_Token function; current token is: RPAREN_T
+Exiting Quoted_Lit function; current token is: RPAREN_T
+Exiting Literal function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Exiting Else_Part function; current token is: RPAREN_T
+Exiting Action function; current token is: RPAREN_T
+Exiting Stmt function; current token is: RPAREN_T
+Entering Stmt_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 6
+Exiting Stmt_List function; current token is: RPAREN_T
+Exiting Define function; current token is: EOF_T
+Entering More_Defines function; current token is: EOF_T, lexeme: 
+Using Rule 4
+Exiting More_Defines function; current token is: EOF_T
+Exiting More_Defines function; current token is: EOF_T
+Exiting More_Defines function; current token is: EOF_T
+Exiting More_Defines function; current token is: EOF_T
+Exiting Program function; current token is: EOF_T

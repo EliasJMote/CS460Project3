@@ -1,0 +1,17 @@
+Input file: ./Tests/S47.ss
+   1: ;; File: S47.ss
+   2: ;; Authors: Devin Brown and Ryan Moeller
+   3: 
+   4: ;; Rule 47
+   5: (define (x) (x))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x
+	RPAREN_T        )
+	LPAREN_T        (
+	IDENT_T         x
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

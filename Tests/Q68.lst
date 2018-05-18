@@ -1,0 +1,5 @@
+Input file: ./Tests/Q68.ss
+   1: (define (function)
+   2:     'string?
+   3: )
+0 errors found in input file

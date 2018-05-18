@@ -1,0 +1,13 @@
+Input file: ./Tests/W37.ss
+   1: (define (rule37) (+)) 			; Rule 37
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule37
+	RPAREN_T        )
+	LPAREN_T        (
+	PLUS_T          +
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

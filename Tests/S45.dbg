@@ -1,0 +1,17 @@
+Input file: ./Tests/S45.ss
+   1: ;; File: S45.ss
+   2: ;; Authors: Devin Brown and Ryan Moeller
+   3: 
+   4: ;; Rule 45
+   5: (define (x) (>=))
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x
+	RPAREN_T        )
+	LPAREN_T        (
+	GTE_T           >=
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

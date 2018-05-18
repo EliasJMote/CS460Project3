@@ -1,0 +1,3 @@
+Input file: ./Tests/T46.ss
+   1: (define(LessThanEqual a b) ( <= a b )) ;rule 46
+0 errors found in input file

@@ -1,0 +1,4 @@
+Input file: ./Tests/N29.ss
+   1: ;;29
+   2: (define (a) (or))
+0 errors found in input file

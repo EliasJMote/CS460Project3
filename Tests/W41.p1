@@ -1,0 +1,12 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule41
+	RPAREN_T        )
+	LPAREN_T        (
+	MODULO_T        modulo
+	NUMLIT_T        5
+	NUMLIT_T        2
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

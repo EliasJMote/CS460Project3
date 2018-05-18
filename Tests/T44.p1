@@ -1,0 +1,14 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         LessThan
+	IDENT_T         a
+	IDENT_T         b
+	RPAREN_T        )
+	LPAREN_T        (
+	LT_T            <
+	IDENT_T         a
+	IDENT_T         b
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

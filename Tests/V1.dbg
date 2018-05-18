@@ -1,0 +1,18 @@
+Input file: ./Tests/V1.ss
+   1: (define (i) i)(define (j) j)
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         i
+	RPAREN_T        )
+	IDENT_T         i
+	RPAREN_T        )
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         j
+	RPAREN_T        )
+	IDENT_T         j
+	RPAREN_T        )
+	EOF_T           
+0 errors found in input file

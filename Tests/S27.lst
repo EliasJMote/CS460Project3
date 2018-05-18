@@ -1,0 +1,7 @@
+Input file: ./Tests/S27.ss
+   1: ;; File: S27.ss
+   2: ;; Authors: Devin Brown and Ryan Moeller
+   3: 
+   4: ;; Rule 27
+   5: (define (x) (cons 0 x))
+0 errors found in input file

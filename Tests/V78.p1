@@ -1,0 +1,25 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         i
+	RPAREN_T        )
+	QUOTE_T         '
+	DISPLAY_T       display
+	RPAREN_T        )
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         i
+	RPAREN_T        )
+	QUOTE_T         '
+	PLUS_T          +
+	RPAREN_T        )
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         i
+	RPAREN_T        )
+	QUOTE_T         '
+	LTE_T           <=
+	RPAREN_T        )
+	EOF_T           

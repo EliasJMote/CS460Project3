@@ -1,0 +1,21 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule_48_a
+	RPAREN_T        )
+	LPAREN_T        (
+	DISPLAY_T       display
+	STRLIT_T        "0118999\n"
+	RPAREN_T        )
+	RPAREN_T        )
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         rule_48_b
+	RPAREN_T        )
+	LPAREN_T        (
+	DISPLAY_T       display
+	NUMLIT_T        0118999
+	RPAREN_T        )
+	RPAREN_T        )
+	EOF_T           

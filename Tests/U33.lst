@@ -1,0 +1,8 @@
+Input file: ./Tests/U33.ss
+   1: ;; File: U33.ss
+   2: ;; Group U
+   3: 
+   4: (define (a)
+   5:   (list? 9)
+   6:   )
+0 errors found in input file
