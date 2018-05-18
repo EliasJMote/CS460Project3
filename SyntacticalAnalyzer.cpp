@@ -991,22 +991,22 @@ int SyntacticalAnalyzer::Action (bool _return)
   return errors;
 }
 
-int SyntacticalAnalyzer::Any_Other_Token ()
+int SyntacticalAnalyzer::Any_Other_Token (bool space)
 {
   int errors = 0;
   p2file << "Entering Any_Other_Token function; current token is: "
-	 << lex->GetTokenName (token) << ", lexeme: " << lex->GetLexeme() << endl;
-
+  << lex->GetTokenName (token) << ", lexeme: " << lex->GetLexeme() << endl;
+  
   static set<token_type> firsts = {LPAREN_T, IDENT_T, NUMLIT_T, STRLIT_T, CONS_T, IF_T, DISPLAY_T,
-				   NEWLINE_T, LISTOP_T, AND_T, OR_T, NOT_T, ELSE_T, QUOTE_T,
-				   DEFINE_T, NUMBERP_T, SYMBOLP_T, LISTP_T, ZEROP_T, NULLP_T,
-				   STRINGP_T, PLUS_T, MINUS_T, MULT_T, DIV_T, MODULO_T, EQUALTO_T,
-				   GT_T, LT_T, GTE_T, LTE_T, COND_T};
+    NEWLINE_T, LISTOP_T, AND_T, OR_T, NOT_T, ELSE_T, QUOTE_T,
+    DEFINE_T, NUMBERP_T, SYMBOLP_T, LISTP_T, ZEROP_T, NULLP_T,
+    STRINGP_T, PLUS_T, MINUS_T, MULT_T, DIV_T, MODULO_T, EQUALTO_T,
+    GT_T, LT_T, GTE_T, LTE_T, COND_T};
   static set<token_type> follows = {LPAREN_T, IDENT_T, NUMLIT_T, STRLIT_T, CONS_T, IF_T, DISPLAY_T,
-				    NEWLINE_T, LISTOP_T, AND_T, OR_T, NOT_T, ELSE_T, QUOTE_T,
-				    DEFINE_T, NUMBERP_T, SYMBOLP_T, LISTP_T, ZEROP_T, NULLP_T,
-				    STRINGP_T, PLUS_T, MINUS_T, MULT_T, DIV_T, MODULO_T, EQUALTO_T,
-				    GT_T, LT_T, GTE_T, LTE_T, COND_T, RPAREN_T};
+    NEWLINE_T, LISTOP_T, AND_T, OR_T, NOT_T, ELSE_T, QUOTE_T,
+    DEFINE_T, NUMBERP_T, SYMBOLP_T, LISTP_T, ZEROP_T, NULLP_T,
+    STRINGP_T, PLUS_T, MINUS_T, MULT_T, DIV_T, MODULO_T, EQUALTO_T,
+    GT_T, LT_T, GTE_T, LTE_T, COND_T, RPAREN_T};
   set<token_type>::iterator itr1 = firsts.find(token);
   set<token_type>::iterator itr2 = follows.find(token);
   while (itr1 == firsts.end() && itr2 == follows.end() && token != EOF_T) {
@@ -1015,209 +1015,241 @@ int SyntacticalAnalyzer::Any_Other_Token ()
     itr1 = firsts.find(token);
     itr2 = follows.find(token);
   }
-
+  
   switch(token)
-    {
+  {
       // Rule 50
     case LPAREN_T:
       p2file << "Using Rule 50" << endl;
+      code -> WriteCode(0, "(");
       token = lex->GetToken();
       errors += More_Tokens();
+      code -> WriteCode(0, " )");
       errors += Error_Helper(RPAREN_T, "Expecting RPAREN_T");
       break;
-
+      
       // Rule 51
     case IDENT_T:
       p2file << "Using Rule 51" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 52
     case NUMLIT_T:
       p2file << "Using Rule 52" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 53
     case STRLIT_T:
       p2file << "Using Rule 53" << endl;
       token = lex->GetToken();
       break;
-
+      
       // Rule 54
     case CONS_T:
       p2file << "Using Rule 54" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 55
     case IF_T:
       p2file << "Using Rule 55" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 56
     case DISPLAY_T:
       p2file << "Using Rule 56" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 57
     case NEWLINE_T:
       p2file << "Using Rule 57" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 58
     case LISTOP_T:
       p2file << "Using Rule 58" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 59
     case AND_T:
       p2file << "Using Rule 59" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 60
     case OR_T:
       p2file << "Using Rule 60" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 61
     case NOT_T:
       p2file << "Using Rule 61" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 62
     case DEFINE_T:
       p2file << "Using Rule 62" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 63
     case NUMBERP_T:
       p2file << "Using Rule 63" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 64
     case SYMBOLP_T:
       p2file << "Using Rule 64" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 65
     case LISTP_T:
       p2file << "Using Rule 65" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 66
     case ZEROP_T:
       p2file << "Using Rule 66" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 67
     case NULLP_T:
       p2file << "Using Rule 67" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 68
     case STRINGP_T:
       p2file << "Using Rule 68" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 69
     case PLUS_T:
       p2file << "Using Rule 69" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 70
     case MINUS_T:
       p2file << "Using Rule 70" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 71
     case DIV_T:
       p2file << "Using Rule 71" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 72
     case MULT_T:
       p2file << "Using Rule 72" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 73
     case MODULO_T:
       p2file << "Using Rule 73" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 74
     case EQUALTO_T:
       p2file << "Using Rule 74" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 75
     case GT_T:
       p2file << "Using Rule 75" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 76
     case LT_T:
       p2file << "Using Rule 76" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 77
     case GTE_T:
       p2file << "Using Rule 77" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 78
     case LTE_T:
       p2file << "Using Rule 78" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 79
     case QUOTE_T:
       p2file << "Using Rule 79" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
-      errors += Any_Other_Token();
+      errors += Any_Other_Token(false);
       break;
-
+      
       // Rule 80
     case COND_T:
       p2file << "Using Rule 80" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
       // Rule 81
     case ELSE_T:
       p2file << "Using Rule 81" << endl;
+      code -> WriteCode(0, (space ? " " : "") + lex -> GetLexeme());
       token = lex->GetToken();
       break;
-
+      
     default:
       errors += Error_Helper("Expecting <any_other_token>");
-
-    }
-
+      
+  }
+  
   set<token_type>::iterator itr = follows.find(token);
   while (itr == follows.end() && token != EOF_T) {
     lex -> ReportError("Unexpected '" + lex -> GetTokenName(token) + "' found at end of Any Other Action");
@@ -1225,9 +1257,9 @@ int SyntacticalAnalyzer::Any_Other_Token ()
     token = lex -> GetToken();
     itr = follows.find(token);
   }
-
+  
   p2file << "Exiting Any_Other_Token function; current token is: "
-	 << lex->GetTokenName (token) << endl;
+  << lex->GetTokenName (token) << endl;
   return errors;
 }
 
